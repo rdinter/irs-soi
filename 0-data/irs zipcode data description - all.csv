@@ -1,0 +1,1785 @@
+year,r_var,variable,description,documentation,var_type,skip
+1998,pivot_agi_zipcode,COLA,Manually created,"Embedded long variable that contains both zipcode information and AGI classes. The AGI size classes included in this file are:
+Under $10,000 (which includes deficit returns);
+$10,000 under $25,000;
+$25,000 under $50,000;
+and $50,000 or more.",Char,8
+1998,return,COLB,Number of returns,"Number of Returns includes a count of all Forms 1040, 1040A, 1040EZ, 1040PC, 1040NR (U. S. Nonresident Alien Income Tax Return) and 8814 (Parent's Election to Report Child's Interest and Dividends) filed by citizens and resident aliens with the IRS filed between January 1, 1999 and December 31, 1999.  Forms 1040NR and 8814 are not included in counts of individual income tax returns shown in the SOI Bulletin or Statistics of Income-Individual Income Tax Returns, 1998.",Num,8
+1998,exmpt,COLC,Number of exemptions,"Total Number of Exemptions reflects the number of individuals covered on the tax returns.  Persons who were claimed as a dependent on another person's return were not allowed to claim an exemption for themselves on their own return.  Also, this number does not include any additional exemptions for age or blindness.",Num,8
+1998,dependents,COLD,Dependent Exemptions,"Number of Dependent Exemptions includes exemptions claimed for children at home, children away from home, parents, and other dependents.",Num,8
+1998,agi,COLE,Adjusted Gross Income,"Adjusted Gross Income is the sum of all taxable sources of income less any adjustments allowed.  This is the equivalent of line 33 of Form 1040 for Tax Year 1998. On Form 8814, this amount is taken from line 4.",Num,8
+1998,wages_n,COLF,Salaries and Wages (number),Salaries and Wages is the amount generally reported to the taxpayer on Form W-2 and shown on line 7 of Form 1040.,Num,8
+1998,wages,COLG,Salaries and Wages (amount),Salaries and Wages is the amount generally reported to the taxpayer on Form W-2 and shown on line 7 of Form 1040.,Num,8
+1998,interest_n,COLH,Taxable Interest (number),Taxable Interest is the taxable portion of interest reported to the taxpayer on Form 1099-INT and shown on line 8a of Form 1040 and line 1a of Form 8814.,Num,8
+1998,interest,COLI,Taxable Interest (amount),Taxable Interest is the taxable portion of interest reported to the taxpayer on Form 1099-INT and shown on line 8a of Form 1040 and line 1a of Form 8814.,Num,8
+1998,earned_income_n,COLJ,Earned Income Credit (number),"Earned Income Credit is the amount shown on line 59a of Form 1040.  For Tax Year 1998, this could be claimed only by taxpayers with AGI less than $30,095.",Num,8
+1998,earned_income,COLK,Earned Income Credit (amount),"Earned Income Credit is the amount shown on line 59a of Form 1040.  For Tax Year 1998, this could be claimed only by taxpayers with AGI less than $30,095.",Num,8
+1998,tax_liability_n,COLL,Total Tax (number),"Total Tax is the amount of tax owed by the taxpayer for the tax year reduced by any credits to which the taxpayer is entitled but before any payments, including the earned income credit, have been taken into consideration.  This is the equivalent of line 56 of Form 1040.",Num,8
+1998,tax_liability,COLM,Total Tax (amount),"Total Tax is the amount of tax owed by the taxpayer for the tax year reduced by any credits to which the taxpayer is entitled but before any payments, including the earned income credit, have been taken into consideration.  This is the equivalent of line 56 of Form 1040.",Num,8
+1998,bus_net_income_n,COLN,Schedule C Net Profit/Loss (number),Schedule C is used by taxpayers to report income and expenses related to a non-farm sole proprietorship.,Num,8
+1998,bus_net_income,COLO,Schedule C Net Profit/Loss (amount),Schedule C is used by taxpayers to report income and expenses related to a non-farm sole proprietorship.,Num,8
+1998,farm_n,COLP,Schedule F Net Profit/Loss (number),Schedule F is used by taxpayers to report income and expenses related to a farm sole proprietorship.,Num,8
+1998,farm_net_income,COLQ,Schedule F Net Profit/Loss (amount),Schedule F is used by taxpayers to report income and expenses related to a farm sole proprietorship.,Num,8
+1998,itemized_n,COLR,Total Itemized Deductions (number),"Schedule A Deductions is the total itemized deductions shown on Schedule A after being limited on Form 1040 for high-income taxpayers.  This amount includes deductions for medical expenses, state and local taxes, deductible interest expenses, charitable contributions, and other miscellaneous deductions.",Num,8
+1998,itemized,COLS,Total Itemized Deductions (amount),"Schedule A Deductions is the total itemized deductions shown on Schedule A after being limited on Form 1040 for high-income taxpayers.  This amount includes deductions for medical expenses, state and local taxes, deductible interest expenses, charitable contributions, and other miscellaneous deductions.",Num,8
+2001,pivot_agi_zipcode,COLA,Manually created,"Embedded long variable that contains both zipcode information and AGI classes. The AGI size classes included in this file are:
+Under $10,000 (which includes deficit returns);
+$10,000 under $25,000;
+$25,000 under $50,000;
+and $50,000 or more.",Char,8
+2001,return,COLB,Number of returns,"Number of Returns includes a count of all Forms 1040, 1040A, 1040EZ, 1040PC, 1040NR (U. S. Nonresident Alien Income Tax Return) and 8814 (Parent's Election to Report Child's Interest and Dividends) filed by citizens and resident aliens with the IRS filed between January 1, 2002 and December 31, 2002.  Forms 1040NR and 8814 are not included in counts of individual income tax returns shown in the SOI Bulletin or Statistics of Income-Individual Income Tax Returns, 2001.",Num,8
+2001,exmpt,COLC,Number of exemptions,"Total Number of Exemptions reflects the number of individuals covered on the tax returns.  Persons who were claimed as a dependent on another person's return were not allowed to claim an exemption for themselves on their own return.  Also, this number does not include any additional exemptions for age or blindness.",Num,8
+2001,dependents,COLD,Dependent Exemptions,"Number of Dependent Exemptions includes exemptions claimed for children at home, children away from home, parents, and other dependents.",Num,8
+2001,agi,COLE,Adjusted Gross Income,"Adjusted Gross Income is the sum of all taxable sources of income less any adjustments allowed.  This is the equivalent of line 33 of Form 1040 for Tax Year 2001. On Form 8814, this amount is taken from line 4.",Num,8
+2001,wages_n,COLF,Salaries and Wages (number),Salaries and Wages is the amount generally reported to the taxpayer on Form W-2 and shown on line 7 of Form 1040.,Num,8
+2001,wages,COLG,Salaries and Wages (amount),Salaries and Wages is the amount generally reported to the taxpayer on Form W-2 and shown on line 7 of Form 1040.,Num,8
+2001,interest_n,COLH,Taxable Interest (number),Taxable Interest is the taxable portion of interest reported to the taxpayer on Form 1099-INT and shown on line 8a of Form 1040 and line 1a of Form 8814.,Num,8
+2001,interest,COLI,Taxable Interest (amount),Taxable Interest is the taxable portion of interest reported to the taxpayer on Form 1099-INT and shown on line 8a of Form 1040 and line 1a of Form 8814.,Num,8
+2001,earned_income_n,COLJ,Earned Income Credit (number),"Earned Income Credit is the amount shown on line 59a of Form 1040.  For Tax Year 1998, this could be claimed only by taxpayers with AGI less than $30,095.",Num,8
+2001,earned_income,COLK,Earned Income Credit (amount),"Earned Income Credit is the amount shown on line 59a of Form 1040.  For Tax Year 1998, this could be claimed only by taxpayers with AGI less than $30,095.",Num,8
+2001,tax_liability_n,COLL,Total Tax (number),"Total Tax is the amount of tax owed by the taxpayer for the tax year reduced by any credits to which the taxpayer is entitled but before any payments, including the earned income credit, have been taken into consideration.  This is the equivalent of line 56 of Form 1040.",Num,8
+2001,tax_liability,COLM,Total Tax (amount),"Total Tax is the amount of tax owed by the taxpayer for the tax year reduced by any credits to which the taxpayer is entitled but before any payments, including the earned income credit, have been taken into consideration.  This is the equivalent of line 56 of Form 1040.",Num,8
+2001,bus_net_income_n,COLN,Schedule C Net Profit/Loss (number),Schedule C is used by taxpayers to report income and expenses related to a non-farm sole proprietorship.,Num,8
+2001,bus_net_income,COLO,Schedule C Net Profit/Loss (amount),Schedule C is used by taxpayers to report income and expenses related to a non-farm sole proprietorship.,Num,8
+2001,farm_n,COLP,Schedule F Net Profit/Loss (number),Schedule F is used by taxpayers to report income and expenses related to a farm sole proprietorship.,Num,8
+2001,farm_net_income,COLQ,Schedule F Net Profit/Loss (amount),Schedule F is used by taxpayers to report income and expenses related to a farm sole proprietorship.,Num,8
+2001,itemized_n,COLR,Total Itemized Deductions (number),"Schedule A Deductions is the total itemized deductions shown on Schedule A after being limited on Form 1040 for high-income taxpayers.  This amount includes deductions for medical expenses, state and local taxes, deductible interest expenses, charitable contributions, and other miscellaneous deductions.",Num,8
+2001,itemized,COLS,Total Itemized Deductions (amount),"Schedule A Deductions is the total itemized deductions shown on Schedule A after being limited on Form 1040 for high-income taxpayers.  This amount includes deductions for medical expenses, state and local taxes, deductible interest expenses, charitable contributions, and other miscellaneous deductions.",Num,8
+2002,pivot_agi_zipcode,COLA,Manually created,"Embedded long variable that contains both zipcode information and AGI classes. The AGI size classes included in this file are:
+Under $10,000 (which includes deficit returns);
+$10,000 under $25,000;
+$25,000 under $50,000;
+and $50,000 or more.",Char,8
+2002,return,COLB,Number of returns,"Number of Returns includes a count of all Forms 1040, 1040A, 1040EZ, 1040PC, 1040NR (U. S. Nonresident Alien Income Tax Return) and 8814 (Parent's Election to Report Child's Interest and Dividends) filed by citizens and resident aliens with the IRS filed between January 1, 2003 and December 31, 2003.  Forms 1040NR and 8814 are not included in counts of individual income tax returns shown in the SOI Bulletin or Statistics of Income-Individual Income Tax Returns, 2002.",Num,8
+2002,exmpt,COLC,Number of exemptions,"Total Number of Exemptions reflects the number of individuals covered on the tax returns.  Persons who were claimed as a dependent on another person's return were not allowed to claim an exemption for themselves on their own return.  Also, this number does not include any additional exemptions for age or blindness.",Num,8
+2002,dependents,COLD,Dependent Exemptions,"Number of Dependent Exemptions includes exemptions claimed for children at home, children away from home, parents, and other dependents.",Num,8
+2002,agi,COLE,Adjusted Gross Income,"Adjusted Gross Income is the sum of all taxable sources of income less any adjustments allowed.  This is the equivalent of line 33 of Form 1040 for Tax Year 2002. On Form 8814, this amount is taken from line 4.",Num,8
+2002,wages_n,COLF,Salaries and Wages (number),Salaries and Wages is the amount generally reported to the taxpayer on Form W-2 and shown on line 7 of Form 1040.,Num,8
+2002,wages,COLG,Salaries and Wages (amount),Salaries and Wages is the amount generally reported to the taxpayer on Form W-2 and shown on line 7 of Form 1040.,Num,8
+2002,interest_n,COLH,Taxable Interest (number),Taxable Interest is the taxable portion of interest reported to the taxpayer on Form 1099-INT and shown on line 8a of Form 1040 and line 1a of Form 8814.,Num,8
+2002,interest,COLI,Taxable Interest (amount),Taxable Interest is the taxable portion of interest reported to the taxpayer on Form 1099-INT and shown on line 8a of Form 1040 and line 1a of Form 8814.,Num,8
+2002,tax_liability_n,COLJ,Total Tax (number),"Total Tax is the amount of tax owed by the taxpayer for the tax year reduced by any credits to which the taxpayer is entitled but before any payments, including the earned income credit, have been taken into consideration.  This is the equivalent of line 56 of Form 1040.",Num,8
+2002,tax_liability,COLK,Total Tax (amount),"Total Tax is the amount of tax owed by the taxpayer for the tax year reduced by any credits to which the taxpayer is entitled but before any payments, including the earned income credit, have been taken into consideration.  This is the equivalent of line 56 of Form 1040.",Num,8
+2002,contributions_n,COLL,Number of returns with Total charitable contributions,"“Contributions” is the amount taxpayers reported as charitable contributions on line 18 of Schedule A.  Occasionally, taxpayers may attach Schedule A to their return and report an amount on this line even when it is not needed in the computation of the current year’s tax.",Num,8
+2002,contributions,COLM,Total charitable contributions amount,"“Contributions” is the amount taxpayers reported as charitable contributions on line 18 of Schedule A.  Occasionally, taxpayers may attach Schedule A to their return and report an amount on this line even when it is not needed in the computation of the current year’s tax.",Num,8
+2002,bus_net_income_n,COLN,Schedule C Net Profit/Loss (number),“Schedule C” is used by taxpayers to report income and expenses related to a non-farm sole proprietorship.,Num,8
+2002,farm_n,COLO,Schedule F Net Profit/Loss (number),“Schedule F” is used by taxpayers to report income and expenses related to a farm sole proprietorship.,Num,8
+2002,itemized_n,COLP,Total Itemized Deductions (number),"“Schedule A” is used by taxpayers to report their total itemized deductions after being limited on Form 1040 for high-income taxpayers and, for most taxpayers, when this amount is larger than their standard deduction.  These deductions include deductions for medical expenses, state and local taxes, deductible interest expenses, charitable contributions, and other miscellaneous deductions.  Taxpayers whose standard deduction exceeds these amounts generally do not file Schedule A.  Occasionally, taxpayers may attach Schedule A to their return even if it is not used in the computation of their tax.",Num,8
+2004,pivot_agi_zipcode_alt,COLA,Manually created,"Embedded long variable that contains both zipcode information and AGI classes. The AGI size classes included in this file are: Under $10,000 (which includes deficit returns);
+$10,000 under $25,000; 
+$25,000 under $50,000;
+$50,000 under $75,000;
+$75,000 under $100,000;
+and $100,000 or more.",Char,11
+2004,return,COLB,Number of returns,"""Number of Returns"" includes a count of all Forms 1040, 1040A and 1040EZ filed with the IRS filed between January 1, 2005 and December 31, 2005.  ",Num,11
+2004,exmpt,COLC,Number of exemptions,"""Total Number of Exemptions"" reflects the number of individuals covered on the tax returns.  Persons who were claimed as a dependent on another person's return were not allowed to claim an exemption for themselves on their own return.  ",Num,11
+2004,dependents,COLD,Dependent Exemptions,"""Number of Dependent Exemptions"" includes exemptions claimed for children at home, children away from home, parents, and other dependents.",Num,11
+2004,agi,COLE,Adjusted Gross Income,"""Adjusted Gross Income"" is the amount shown on line 36 of Form 1040.",Num,11
+2004,wages_n,COLF,Salaries and Wages (number),"""Salaries and Wages"" is the amount shown on line 7 of Form 1040.",Num,11
+2004,wages,COLG,Salaries and Wages (amount),"""Salaries and Wages"" is the amount shown on line 7 of Form 1040.",Num,11
+2004,interest_n,COLH,Taxable Interest (number),"""Taxable Interest"" is the amount shown on line 8a of Form 1040.",Num,11
+2004,interest,COLI,Taxable Interest (amount),"""Taxable Interest"" is the amount shown on line 8a of Form 1040.",Num,11
+2004,dividends_n,COLJ,Taxable Dividends (number),“Taxable Dividends” is the amount shown on Form 1040 line 9a.,Num,11
+2004,dividends,COLK,Taxable Dividends (amount),“Taxable Dividends” is the amount shown on Form 1040 line 9a.,Num,11
+2004,capital_gain_n,COLL,Net Capital Gain/Loss (number),"“Net Capital Gain/Loss” is the amount shown on Form 1040, line 13.",Num,11
+2004,capital_gain,COLM,Net Capital Gain/Loss (amount),"“Net Capital Gain/Loss” is the amount shown on Form 1040, line 13.",Num,11
+2004,bus_net_income_n,COLN,Schedule C Net Profit/Loss (number),"""Schedule C Net Profit/Loss"" is the amount shown on Form 1040, line 12.",Num,11
+2004,bus_net_income,COLO,Schedule C Net Profit/Loss (amount),"""Schedule C Net Profit/Loss"" is the amount shown on Form 1040, line 12.",Num,11
+2004,farm_n,COLP,Schedule F Net Profit/Loss (number),"""Schedule F Net Profit/Loss"" is the amount shown on Form 1040, line 18.",Num,11
+2004,farm_net_income,COLQ,Schedule F Net Profit/Loss (amount),"""Schedule F Net Profit/Loss"" is the amount shown on Form 1040, line 18.",Num,11
+2004,ira_payments_n,COLR,IRA Payment Deduction (number),"“IRA Payment Deduction” is the amount shown on Form 1040, line 25.",Num,11
+2004,ira_deduction,COLS,IRA Payment Deduction (amount),"“IRA Payment Deduction” is the amount shown on Form 1040, line 25.",Num,11
+2004,self_employ_n,COLT,Self-employed Pension Deduction (number),"“Self-employed Pension” is the amount shown on Form 1040, line 32.",Num,11
+2004,self_employ,COLU,Self-employed Pension Deduction (amount),"“Self-employed Pension” is the amount shown on Form 1040, line 32.",Num,11
+2004,itemized_n,COLV,Total Itemized Deductions (number),"“Total Itemized Deductions” is the amount shown on Schedule A, line 28.",Num,11
+2004,itemized_agi,COLW,Total Itemized Deductions (AGI),"“Total Itemized Deductions” is the amount shown on Schedule A, line 28.",Num,11
+2004,itemized,COLX,Total Itemized Deductions (amount),"“Total Itemized Deductions” is the amount shown on Schedule A, line 28.",Num,11
+2004,contributions_n,COLY,Contributions Deductions (number),"“Contributions Deductions” is the amount shown on Schedule A, line 18",Num,11
+2004,contributions_agi,COLZ,Contributions Deductions (AGI),"“Contributions Deductions” is the amount shown on Schedule A, line 18",Num,11
+2004,contributions,COLAA,Contributions Deductions (amount),"“Contributions Deductions” is the amount shown on Schedule A, line 18",Num,11
+2004,taxes_n,COLAB,Taxes Paid Deductions (number),"“Taxes Paid Deductions” is the amount shown on Schedule A, Line 9.",Num,11
+2004,taxes_agi,COLAC,Taxes Paid Deductions (AGI),"“Taxes Paid Deductions” is the amount shown on Schedule A, Line 9.",Num,11
+2004,taxes,COLAD,Taxes Paid Deductions (amount),"“Taxes Paid Deductions” is the amount shown on Schedule A, Line 9.",Num,11
+2004,alternative_minimum_n,COLAE,Alternative Minimum Tax (number),"“Alternative Minimum Tax” is the amount shown on Form 1040, line 44.",Num,11
+2004,alternative_minimum,COLAF,Alternative Minimum Tax (amount),"“Alternative Minimum Tax” is the amount shown on Form 1040, line 44.",Num,11
+2004,taxable_inc_before_n,COLAG,Income Tax Before Credits (number),"“Income Tax Before Credits” is the amount shown on Form 1040, line 45.",Num,11
+2004,taxable_inc_before,COLAH,Income Tax Before Credits (amount),"“Income Tax Before Credits” is the amount shown on Form 1040, line 45.",Num,11
+2004,tax_liability_n,COLAI,Total Tax (number),"""Total Tax"" is the amount shown on Form 1040, line 62.",Num,11
+2004,tax_liability,COLAJ,Total Tax (amount),"""Total Tax"" is the amount shown on Form 1040, line 62.",Num,11
+2004,earned_income_n,COLAK,Earned Income Credit (number),"“Earned Income Credit” is the amount shown on Form 1040, line 65a.",Num,11
+2004,earned_income,COLAL,Earned Income Credit (amount),"“Earned Income Credit” is the amount shown on Form 1040, line 65a.",Num,11
+2004,return_paid,COLAM,Number of returns using a Paid Preparer,,Num,11
+2005,pivot_agi_zipcode_alt,agi_class,Manually created,"Embedded long variable that contains both zipcode information and AGI classes. The AGI size classes included in this file are:
+1 ='Under $10,000' 
+2 ='$10,000 under $25,000'
+3 ='$25,000 under $50,000'
+4 ='$50,000 under $75,000'
+5 ='$75,000 under $100,000'
+6 ='$100,000 or more'",Char,11
+2005,return,n1,Number of returns,"Form 1040, 1040A, 1040-EZ",Num,11
+2005,exmpt,n2,Number of exemptions,"Form 1040, 1040A, Line 6d, 1040EZ Line 5",Num,11
+2005,dependents,n6,Dependent Exemptions,"Form 1040, 1040A, Line 6c",Num,11
+2005,agi,a00100,Adjusted Gross Income,"Form 1040 Line 37, 1040A Line 21, 1040EZ Line 4",Num,11
+2005,wages_n,n00200,Salaries and Wages (number),"Form 1040 and 1040A, Line 7, 1040-EZ Line 1",Num,11
+2005,wages,a00200,Salaries and Wages (amount),"Form 1040 and 1040A, Line 7, 1040-EZ Line 1",Num,11
+2005,interest_n,n00300,Taxable Interest (number),"Form 1040, 1040A Line 8a, 1040EZ Line 2",Num,11
+2005,interest,a00300,Taxable Interest (amount),"Form 1040, 1040A Line 8a, 1040EZ Line 2",Num,11
+2005,dividends_n,n00600,Taxable Dividends (number),"Form 1040, 1040A Line 9a",Num,11
+2005,dividends,a00600,Taxable Dividends (amount),"Form 1040, 1040A Line 9a",Num,11
+2005,capital_gain_n,n01000,Net Capital Gain/Loss (number),"Form 1040 Line 13, 1040A Line 10",Num,11
+2005,capital_gain,a01000,Net Capital Gain/Loss (amount),"Form 1040 Line 13, 1040A Line 10",Num,11
+2005,bus_net_income_n,n00900,Schedule C Net Profit/Loss (number),Form 1040 Line 12,Num,11
+2005,bus_net_income,a00900,Schedule C Net Profit/Loss (amount),Form 1040 Line 12,Num,11
+2005,farm_n,n02100,Schedule F Net Profit/Loss (number),"Form 1040, Schedule F",Num,11
+2005,farm_net_income,a02100,Schedule F Net Profit/Loss (amount),"Form 1040, Schedule F",Num,11
+2005,ira_payments_n,n03150,IRA Payment Deduction (number),"Form 1040 Line 32, 1040A Line 17",Num,11
+2005,ira_deduction,a03150,IRA Payment Deduction (amount),"Form 1040 Line 32, 1040A Line 17",Num,11
+2005,self_employ_n,n03300,Self-employed Pension Deduction (number),"Form 1040, Line 28",Num,11
+2005,self_employ,a03300,Self-employed Pension Deduction (amount),"Form 1040, Line 28",Num,11
+2005,itemized_n,n21060,Total Itemized Deductions (number),"Form 1040, Schedule A, Line 28",Num,11
+2005,itemized_agi,agi_04470,Total Itemized Deductions (AGI),"Form 1040, Schedule A, Line 28",Num,11
+2005,itemized,a21060,Total Itemized Deductions (amount),"Form 1040, Schedule A, Line 28",Num,11
+2005,contributions_n,n19700,Contributions Deductions (number),"Form 1040, Schedule A, Line 18",Num,11
+2005,contributions_agi,agi_19700,Contributions Deductions (AGI),"Form 1040, Schedule A, Line 18",Num,11
+2005,contributions,a19700,Contributions Deductions (amount),"Form 1040, Schedule A, Line 18",Num,11
+2005,taxes_n,n18300,Taxes Paid Deductions (number),"Form 1040, Schedule A, Line 9",Num,11
+2005,taxes_agi,agi_18300,Taxes Paid Deductions (AGI),"Form 1040, Schedule A, Line 9",Num,11
+2005,taxes,a18300,Taxes Paid Deductions (amount),"Form 1040, Schedule A, Line 9",Num,11
+2005,alternative_minimum_n,n09600,Alternative Minimum Tax (number),Form 1040 Line 45,Num,11
+2005,alternative_minimum,a09600,Alternative Minimum Tax (amount),Form 1040 Line 45,Num,11
+2005,taxable_inc_before_n,n05800,Income Tax Before Credits (number),"Form 1040 Line 46, 1040A Line 28, 1040EZ Line 10",Num,11
+2005,taxable_inc_before,a05800,Income Tax Before Credits (amount),"Form 1040 Line 46, 1040A Line 28, 1040EZ Line 10",Num,11
+2005,tax_liability_n,n09200,Total Tax (number),"Form 1040 Line 63, 1040A Line 38, 1040EZ Line 10",Num,11
+2005,tax_liability,a09200,Total Tax (amount),"Form 1040 Line 63, 1040A Line 38, 1040EZ Line 10",Num,11
+2005,earned_income_n,n11000,Earned Income Credit (number),"Form 1040 Line 66a, 1040A Line 41a, 1040EZ Line 8a",Num,11
+2005,earned_income,a11000,Earned Income Credit (amount),"Form 1040 Line 66a, 1040A Line 41a, 1040EZ Line 8a",Num,11
+2005,return_paid,PREP,Number of returns using a Paid Preparer,"Form 1040, 1040A, 1040EZ footer",Num,11
+2006,agi_class,agi_class,Adjusted gross income range,"1 ='Under $10,000' 
+2 ='$10,000 under $25,000'
+3 ='$25,000 under $50,000'
+4 ='$50,000 under $75,000'
+5 ='$75,000 under $100,000'
+6 ='$100,000 under $200,000'
+7 ='$200,000 or more'",Char,11
+2006,zipcode,zipcode,5-digit zipcode,,Char,11
+2006,return,n1,Number of returns,,Num,11
+2006,exmpt,n2,Number of exemptions,Total,Num,11
+2006,dependents,n6,Dependent Exemptions,,Num,11
+2006,agi,a00100,Adjusted Gross Income,,Num,11
+2006,wages_n,n00200,Salaries and Wages (number),"Form 1040 and 1040A, Line 7, 1040-EZ Line 1",Num,11
+2006,wages,a00200,Salaries and Wages (amount),"Form 1040 and 1040A, Line 7, 1040-EZ Line 1",Num,11
+2006,interest_n,n00300,Taxable Interest (number),"Form 1040, 1040A Line 8a, 1040EZ Line 2",Num,11
+2006,interest,a00300,Taxable Interest (amount),"Form 1040, 1040A Line 8a, 1040EZ Line 2",Num,11
+2006,dividends_n,n00600,Taxable Dividends (number),"Form 1040, 1040A Line 9a",Num,11
+2006,dividends,a00600,Taxable Dividends (amount),"Form 1040, 1040A Line 9a",Num,11
+2006,capital_gain_n,n23900,Net Capital Gain/Loss (number),"Form 1040 Line 13, 1040A Line 10",Num,11
+2006,capital_gain,a23900,Net Capital Gain/Loss (amount),"Form 1040 Line 13, 1040A Line 10",Num,11
+2006,bus_net_income_n,n00900,Schedule C Net Profit/Loss (number),Form 1040 Line 12,Num,11
+2006,bus_net_income,a00900,Schedule C Net Profit/Loss (amount),Form 1040 Line 12,Num,11
+2006,farm_n,n02100,Schedule F Net Profit/Loss (number),"Form 1040, Schedule F",Num,11
+2006,farm_net_income,a02100,Schedule F Net Profit/Loss (amount),"Form 1040, Schedule F",Num,11
+2006,ira_payments_n,n03150,IRA Payment Deduction (number),"Form 1040 Line 32, 1040A Line 17",Num,11
+2006,ira_deduction,a03150,IRA Payment Deduction (amount),"Form 1040 Line 32, 1040A Line 17",Num,11
+2006,self_employ_n,n03300,Self-employed Pension Deduction (number),"Form 1040, Line 28",Num,11
+2006,self_employ,a03300,Self-employed Pension Deduction (amount),"Form 1040, Line 28",Num,11
+2006,itemized_n,n04470,Total Itemized Deductions (number),"Form 1040, Schedule A, Line 28",Num,11
+2006,itemized_agi,agi_04470,Total Itemized Deductions (AGI),"Form 1040, Schedule A, Line 28",Num,11
+2006,itemized,a04470,Total Itemized Deductions (amount),"Form 1040, Schedule A, Line 28",Num,11
+2006,contributions_n,n19700,Contributions Deductions (number),"Form 1040, Schedule A, Line 18",Num,11
+2006,contributions_agi,agi_19700,Contributions Deductions (AGI),"Form 1040, Schedule A, Line 18",Num,11
+2006,contributions,a19700,Contributions Deductions (amount),"Form 1040, Schedule A, Line 18",Num,11
+2006,taxes_n,n18300,Taxes Paid Deductions (number),"Form 1040, Schedule A, Line 9",Num,11
+2006,taxes_agi,agi_18300,Taxes Paid Deductions (AGI),"Form 1040, Schedule A, Line 9",Num,11
+2006,taxes,a18300,Taxes Paid Deductions (amount),"Form 1040, Schedule A, Line 9",Num,11
+2006,alternative_minimum_n,n09600,Alternative Minimum Tax (number),Form 1040 Line 45,Num,11
+2006,alternative_minimum,a09600,Alternative Minimum Tax (amount),Form 1040 Line 45,Num,11
+2006,taxable_inc_before_n,n05800,Income Tax Before Credits (number),"Form 1040 Line 46, 1040A Line 28, 1040EZ Line 10",Num,11
+2006,taxable_inc_before,a05800,Income Tax Before Credits (amount),"Form 1040 Line 46, 1040A Line 28, 1040EZ Line 10",Num,11
+2006,tax_liability_n,n09200,Total Tax (number),"Form 1040 Line 63, 1040A Line 38, 1040EZ Line 10",Num,11
+2006,tax_liability,a09200,Total Tax (amount),"Form 1040 Line 63, 1040A Line 38, 1040EZ Line 10",Num,11
+2006,earned_income_n,n59660,Earned Income Credit (number),"Form 1040 Line 66a, 1040A Line 41a, 1040EZ Line 8a",Num,11
+2006,earned_income,a59660,Earned Income Credit (amount),"Form 1040 Line 66a, 1040A Line 41a, 1040EZ Line 8a",Num,11
+2006,return_paid,prep,Number of returns using a Paid Preparer,"Form 1040, 1040A, 1040EZ footer",Num,11
+2007,agi_class,agi_class,Adjusted gross income range,"1 ='Under $10,000' 
+2 ='$10,000 under $25,000'
+3 ='$25,000 under $50,000'
+4 ='$50,000 under $75,000'
+5 ='$75,000 under $100,000'
+6 ='$100,000 under $200,000'
+7 ='$200,000 or more'",Char,9
+2007,zipcode,ZIPCODE,5-digit Zip Code,,Char,9
+2007,return,n1,Number of returns [1],"Form 1040, 1040A, 1040-EZ",Num,9
+2007,return_joint,mars2,Number of joint returns,Filing Status is Married Filing Jointly,Num,9
+2007,return_paid,prep,Number with paid preparer's signature,Paid Preparer Outside IRS,Num,9
+2007,exmpt,n2,Number of exemptions,"Form 1040, 1040A, Line 6d",Num,9
+2007,dependents,numdep,Number of returns with dependents,"Form 1040, 1040A, Line 6c",Num,9
+2007,agi,a00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,9
+2007,wages_n,n00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,9
+2007,wages,a00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,9
+2007,interest_n,n00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,9
+2007,interest,a00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,9
+2007,dividends_n,n00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,9
+2007,dividends,a00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,9
+2007,bus_net_income_n,n00900,Number of returns with business orprofessional net income (less loss),"Form 1040, Line 12",Num,9
+2007,bus_net_income,a00900,Business or professional net income (less loss) amount,"Form 1040, Line 12",Num,9
+2007,farm_n,schf,Number of farm returns,"Form 1040, Schedule F",Num,9
+2007,capital_gain_n,n23900,Number of returns with net capital gain (less loss),"Form 1040 Line 13, 1040A Line 10",Num,9
+2007,capital_gain,a23900,Net capital gain (less loss) amount,"Form 1040 Line 13, 1040A Line 10",Num,9
+2007,ira_n,n01400,Number of returns with taxable individual retirementarrangements distributions,"Form 1040 Line 15b, 1040A Line 11b",Num,9
+2007,ira,a01400,Taxable individual retirement arrangements distributions amount,"Form 1040 Line 15b, 1040A Line 11b",Num,9
+2007,pensions_n,n01700,Number of returns with taxable pensions and annuities,"Form 1040 Line 16b, 1040A Line 12b",Num,9
+2007,pensions,a01700,Taxable pensions and annuities amount,"Form 1040 Line 16b, 1040A Line 12b",Num,9
+2007,unemployment_n,n02300,Number of returns with unemployment compensation,"Form 1040 Line 19, 1040A Line 13, 1040EZ Line 3",Num,9
+2007,unemployment,a02300,Unemployment compensation amount [4],"Form 1040 Line 19, 1040A Line 13, 1040EZ Line 3",Num,9
+2007,social_security_n,n02500,Number of returns with taxable Social Security benefits,"Form 1040 Line 20b, 1040A Line 14b",Num,9
+2007,social_security,a02500,Taxable Social Security benefits amount,"Form 1040 Line 20b, 1040A Line 14b",Num,9
+2007,self_employ_n,n03300,Number of returns with self-employment retirement plans,"Form 1040, Line 28",Num,9
+2007,self_employ,a03300,Self-employment retirement plans amount,"Form 1040, Line 28",Num,9
+2007,itemized_n,n04470,Number of returns with itemized deductions,"Form 1040, Schedule A, Line 29",Num,9
+2007,itemized,a04470,Total itemized deductions amount,"Form 1040, Schedule A, Line 29",Num,9
+2007,state_inc_tax_n,n18425,Number of returns with State and local income taxes,"Form 1040, Schedule A, Line 5a",Num,9
+2007,state_inc_tax,a18425,State and local income taxes amount,"Form 1040, Schedule A, Line 5a",Num,9
+2007,state_general_tax_n,n18450,Number of returns with State and local general sales tax,"Form 1040, Schedule A, Line 5b",Num,9
+2007,state_general_tax,a18450,State and local general sales tax amount,"Form 1040, Schedule A, Line 5b",Num,9
+2007,real_estate_tax_n,n18500,Number of returns with real estate taxes,"Form 1040, Schedule A, Line 6",Num,9
+2007,real_estate_tax,a18500,Real estate taxes amount,"Form 1040, Schedule A, Line 6",Num,9
+2007,taxes_n,n18300,Number of returns with taxes paid,"Form 1040, Schedule A, Line 9",Num,9
+2007,taxes,a18300,Taxes paid amount,"Form 1040, Schedule A, Line 9",Num,9
+2007,mortgage_interest_n,n19300,Number of returns with mortgage interest paid,"Form 1040, Schedule A, Line 10",Num,9
+2007,mortgage_interest,a19300,Mortgage interest paid amount,"Form 1040, Schedule A, Line 10",Num,9
+2007,contributions_n,n19700,Number of returns with contributions,"Form 1040, Schedule A, Line 19",Num,9
+2007,contributions,a19700,Contributions amount,"Form 1040, Schedule A, Line 19",Num,9
+2007,taxable_inc_n,n04800,Number of returns with taxable income,"Form 1040 Line 43, 1040A Line 27, 1040EZ Line 6",Num,9
+2007,taxable_inc,a04800,Taxable income amount,"Form 1040 Line 43, 1040A Line 27, 1040EZ Line 6",Num,9
+2007,tax_credits_n,n07100,Number of returns with total tax credits,"Form 1040 Line 56, 1040A Line 34",Num,9
+2007,tax_credits,a07100,Total tax credits amount,"Form 1040 Line 56, 1040A Line 34",Num,9
+2007,res_energy_credit_n,nf5695,Number of returns with residential energy tax credit,"Form 1040, Form 5695, Line 27",Num,9
+2007,res_energy_credit,af5695,Residential energy tax credit amount,"Form 1040, Form 5695, Line 27",Num,9
+2007,child_tax_n,n07220,Number of returns with child tax credit,"Form 1040 Line 52, 1040A Line 32",Num,9
+2007,child_tax,a07220,Child tax credit amount,"Form 1040 Line 52, 1040A Line 32",Num,9
+2007,child_dependent_credit_n,n07180,Number of returns with child and dependent care credit,"Form 1040 Line 47, 1040A Line 29",Num,9
+2007,child_dependent_credit,a07180,Child and dependent care credit amount,"Form 1040 Line 47, 1040A Line 29",Num,9
+2007,earned_income_n,n59660,Number of returns with earned income credit,"Form 1040 Line 66a, 1040A Line 40a, 1040EZ Line 8a",Num,9
+2007,earned_income,a59660,Earned income credit amount [5],"Form 1040 Line 66a, 1040A Line 40a, 1040EZ Line 8a",Num,9
+2007,excess_earned_income_n,n59720,Number of returns with excess earned income credit,see footnote,Num,9
+2007,excess_earned_income,a59720,Excess earned income credit (refundable) amount [6],see footnote,Num,9
+2007,alternative_minimum_n,n09600,Number of returns with alternative minimum tax,"Form 1040, Form 6251, Line 35",Num,9
+2007,alternative_minimum,a09600,Alternative minimum tax amount,"Form 1040, Form 6251, Line 35",Num,9
+2007,income_tax_n,n06500,Number of returns with income tax,"Form 1040, Line 57, 1040A Line 28, 1040EZ Line 10",Num,9
+2007,income_tax,a06500,Income tax amount [7],"Form 1040, Line 57, 1040A Line 28, 1040EZ Line 10",Num,9
+2007,tax_liability_n,n10300,Number of returns with tax liability,"Form 1040 Line 63, 1040A Line 37, 1040EZ Line 10",Num,9
+2007,tax_liability,a10300,Total tax liability amount [8],"Form 1040 Line 63, 1040A Line 37, 1040EZ Line 10",Num,9
+2007,tax_due_n,n11900gt0,Number of returns with tax due at time of filing,"Form 1040 Line 76, 1040A Line 46, 1040EZ Line 12",Num,9
+2007,tax_due,a11900gt0,Tax due at time of filing amount [9],"Form 1040 Line 76, 1040A Line 46, 1040EZ Line 12",Num,9
+2007,overpayments_n,n11900lt0,Number of returns with overpayments refunded,"Form 1040 Line 74a, 1040A Line 44a, 1040EZ Line 11a",Num,9
+2007,overpayments,a11900lt0,Overpayments refunded amount [10],"Form 1040 Line 74a, 1040A Line 44a, 1040EZ Line 11a",Num,9
+2008,agi_class,AGI_CLASS,Size of adjusted gross income,"1 ='Under $10,000' 
+2 ='$10,000 under $25,000'
+3 ='$25,000 under $50,000'
+4 ='$50,000 under $75,000'
+5 ='$75,000 under $100,000'
+6 ='$100,000 under $200,000'
+7 ='$200,000 or more'",Char,10
+2008,zipcode,ZIPCODE,5-digit Zip Code,,Char,10
+2008,return,N1,Number of returns [1],,Num,10
+2008,return_joint,MARS2,Number of joint returns,Filing Status is Married filing jointly,Num,10
+2008,return_paid,PREP,Number of returns with paid preparer's signature,,Num,10
+2008,exmpt,N2,Number of exemptions,1040:6d,Num,10
+2008,dependents,NUMDEP,Number of dependents,1040:6c,Num,10
+2008,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,10
+2008,wages,A00200,Salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,10
+2008,interest,A00300,Taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,10
+2008,dividends,A00600,Ordinary dividends,1040:9a / 1040A:9a,Num,10
+2008,bus_net_income,A00900,Business or professional net income (less loss),1040:12:00,Num,10
+2008,capital_gain,A23900,Net capital gain (less loss),1040:13 1040A:10,Num,10
+2008,ira,A01400,Taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,10
+2008,pensions,A01700,Taxable pensions and annuities,1040:16b / 1040A:12b,Num,10
+2008,unemployment,A02300,Unemployment compensation [3],1040:19 / 1040A:13 / 1040EZ:3,Num,10
+2008,social_security,A02500,Taxable Social Security benefits,1040:20b / 1040A:14b,Num,10
+2008,self_employ,A03300,Self-employment retirement plans,1040:28:00,Num,10
+2008,itemized,A04470,Total itemized deductions [4],Schedule A:29,Num,10
+2008,state_inc_tax,A18425,State and local income taxes,Schedule A:5a,Num,10
+2008,state_general_tax,A18450,State and local general sales tax,Schedule A:5b,Num,10
+2008,real_estate_tax,A18500,Real estate taxes,Schedule A:6,Num,10
+2008,taxes,A18300,Taxes paid,Schedule A:9,Num,10
+2008,mortgage_interest,A19300,Mortgage interest paid,Schedule A:10,Num,10
+2008,contributions,A19700,Contributions,Schedule A:19,Num,10
+2008,taxable_inc,A04800,Taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,10
+2008,tax_credits,A07100,Total tax credits [5],1040:56 / 1040A:34,Num,10
+2008,res_energy_credit,AF5695,Residential energy tax credit,Form 5695:27,Num,10
+2008,child_tax,A07220,Child tax credit,1040:52 / 1040A:32,Num,10
+2008,child_dependent_credit,A07180,Child and dependent care credit,1040:47 / 1040A:29,Num,10
+2008,earned_income,A59660,Earned income credit [6],1040:66a / 1040A:40a / 1040EZ:8a,Num,10
+2008,excess_earned_income,A59720,Excess earned income credit (refundable) [7],1040:66a / 1040A:40a / 1040EZ:8a,Num,10
+2008,alternative_minimum,A09600,Alternative minimum tax,6251:35:00,Num,10
+2008,income_tax,A06500,Income tax [8],1040:56 / 1040A:28 / 1040EZ:10,Num,10
+2008,tax_liability,A10300,Total tax liability [9],1040:61 / 1040A:37 / 1040EZ: 10,Num,10
+2008,tax_due,A11900GT0,Tax due at time of filing [10],1040:76 / 1040A:46 / 1040EZ:12,Num,10
+2008,overpayments,A11900LT0,Overpayments refunded [11],1040:73 / 1040A:44a / 1040EZ:11a,Num,10
+2009,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2009,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2009,return,N1,Number of returns,,Num,6
+2009,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2009,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2009,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2009,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2009,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2009,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2009,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2009,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2009,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2009,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2009,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2009,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2009,dividends_qual,A00650,Qualified dividends amount [3],1040:9b / 1040A:9b,Num,6
+2009,bus_net_income_n,N00900,Number of returns with business orprofessional net income (less loss),1040:12:00,Num,6
+2009,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2009,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2009,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2009,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2009,ira_n,N01400,Number of returns with taxable individual retirementarrangements distributions,1040:15b / 1040:11b,Num,6
+2009,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2009,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2009,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2009,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2009,unemployment,A02300,Unemployment compensation amount [4],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2009,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2009,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2009,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2009,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2009,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2009,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2009,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2009,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2009,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2009,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2009,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2009,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2009,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2009,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2009,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2009,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2009,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2009,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2009,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2009,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2009,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2009,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2009,tax_credits_n,N07100,Number of returns with total tax credits,1040:54 / 1040A:34,Num,6
+2009,tax_credits,A07100,Total tax credits amount,1040:54 / 1040A:34,Num,6
+2009,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:48 / 1040A:29,Num,6
+2009,child_dependent_credit,A07180,Child and dependent care credit amount,1040:48 / 1040A:29,Num,6
+2009,child_tax_n,N07220,Number of returns with child tax credit,1040:51 / 1040A:33,Num,6
+2009,child_tax,A07220,Child tax credit amount,1040:51 / 1040A:33,Num,6
+2009,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:52:00,Num,6
+2009,res_energy_credit,A07260,Residential energy tax credit amount,1040:52:00,Num,6
+2009,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:65 / 1040A:39,Num,6
+2009,additional_child_credit,A11070,Additional child tax credit amount,1040:65 / 1040A:39,Num,6
+2009,earned_income_n,N59660,Number of returns with earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2009,earned_income,A59660,Earned income credit amount [5],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2009,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2009,excess_earned_income,A59720,Excess earned income credit (refundable) amount [6],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2009,income_tax_n,N06500,Number of returns with income tax,1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2009,income_tax,A06500,Income tax amount [7],1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2009,tax_liability_n,N10300,Number of returns with tax liability,1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2009,tax_liability,A10300,Total tax liability amount [8],1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2009,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2009,tax_due,A11901,Tax due at time of filing amount [9],1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2009,overpayments_n,N11902,Number of returns with overpayments refunded,1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2009,overpayments,A11902,Overpayments refunded amount [10],1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2010,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2010,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2010,return,N1,Number of returns,,Num,6
+2010,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2010,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2010,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2010,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2010,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2010,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2010,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2010,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2010,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2010,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2010,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2010,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2010,dividends_qual,A00650,Qualified dividends amount [3],1040:9b / 1040A:9b,Num,6
+2010,bus_net_income_n,N00900,Number of returns with business orprofessional net income (less loss),1040:12:00,Num,6
+2010,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2010,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2010,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2010,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2010,ira_n,N01400,Number of returns with taxable individual retirementarrangements distributions,1040:15b / 1040:11b,Num,6
+2010,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2010,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2010,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2010,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2010,unemployment,A02300,Unemployment compensation amount [4],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2010,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2010,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2010,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2010,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2010,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2010,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2010,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2010,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2010,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2010,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2010,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2010,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2010,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2010,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2010,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2010,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2010,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2010,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2010,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2010,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2010,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2010,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2010,tax_credits_n,N07100,Number of returns with total tax credits,1040:54 / 1040A:34,Num,6
+2010,tax_credits,A07100,Total tax credits amount,1040:54 / 1040A:34,Num,6
+2010,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:48 / 1040A:29,Num,6
+2010,child_dependent_credit,A07180,Child and dependent care credit amount,1040:48 / 1040A:29,Num,6
+2010,child_tax_n,N07220,Number of returns with child tax credit,1040:51 / 1040A:33,Num,6
+2010,child_tax,A07220,Child tax credit amount,1040:51 / 1040A:33,Num,6
+2010,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:52:00,Num,6
+2010,res_energy_credit,A07260,Residential energy tax credit amount,1040:52:00,Num,6
+2010,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:65 / 1040A:39,Num,6
+2010,additional_child_credit,A11070,Additional child tax credit amount,1040:65 / 1040A:39,Num,6
+2010,earned_income_n,N59660,Number of returns with earned income credit,1040:64a / 1040A:41a / 1040EZ:9a,Num,6
+2010,earned_income,A59660,Earned income credit amount [5],1040:64a / 1040A:41a / 1040EZ:9a,Num,6
+2010,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2010,excess_earned_income,A59720,Excess earned income credit (refundable) amount [6],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2010,income_tax_n,N06500,Number of returns with income tax,1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2010,income_tax,A06500,Income tax amount [7],1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2010,tax_liability_n,N10300,Number of returns with tax liability,1040:60 / 1040A:37 / 1040EZ: 11,Num,6
+2010,tax_liability,A10300,Total tax liability amount [8],1040:60 / 1040A:37 / 1040EZ: 11,Num,6
+2010,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:76 / 1040A:48 / 1040EZ:13,Num,6
+2010,tax_due,A11901,Tax due at time of filing amount [9],1040:76 / 1040A:48 / 1040EZ:13,Num,6
+2010,overpayments_n,N11902,Number of returns with overpayments refunded,1040:73 / 1040A:45 / 1040EZ:12a,Num,6
+2010,overpayments,A11902,Overpayments refunded amount [10],1040:73 / 1040A:45 / 1040EZ:12a,Num,6
+2011,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2011,agi_stub,AGI_STUB,Size of adjusted gross income,"0 = No AGI Stub
+1 = '$1 under $25,000'2 = '$25,000 under $50,000'3 = '$50,000 under $75,000'4 = '$75,000 under $100,000'5 = '$100,000 under $200,000'6 = '$200,000 or more'",Char,6
+2011,return,N1,Number of returns [3],,Num,6
+2011,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2011,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2011,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2011,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2011,agi,A00100,Adjust gross income (AGI),1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2011,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2011,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2011,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2011,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2011,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2011,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2011,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2011,dividends_qual,A00650,Qualified dividends amount [4],1040:9b / 1040A:9b,Num,6
+2011,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),1040:12:00,Num,6
+2011,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2011,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2011,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2011,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2011,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,6
+2011,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2011,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2011,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2011,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2011,unemployment,A02300,Unemployment compensation amount [5],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2011,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2011,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2011,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2011,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2011,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2011,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2011,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2011,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2011,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2011,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2011,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2011,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2011,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2011,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2011,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2011,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2011,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2011,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2011,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2011,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2011,tax_credits_n,N07100,Number of returns with total tax credits,1040:54 / 1040A:34,Num,6
+2011,tax_credits,A07100,Total tax credits amount,1040:54 / 1040A:34,Num,6
+2011,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:52:00,Num,6
+2011,res_energy_credit,A07260,Residential energy tax credit amount,1040:52:00,Num,6
+2011,child_tax_n,N07220,Number of returns with child tax credit,1040:51 / 1040A:33,Num,6
+2011,child_tax,A07220,Child tax credit amount,1040:51 / 1040A:33,Num,6
+2011,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:48 / 1040A:29,Num,6
+2011,child_dependent_credit,A07180,Child and dependent care credit amount,1040:48 / 1040A:29,Num,6
+2011,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:65 / 1040A:39,Num,6
+2011,additional_child_credit,A11070,Additional child tax credit amount,1040:65 / 1040A:39,Num,6
+2011,earned_income_n,N59660,Number of returns with earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2011,earned_income,A59660,Earned income credit amount [6],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2011,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2011,excess_earned_income,A59720,Excess earned income credit (refundable) amount [7],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2011,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2011,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2011,income_tax_n,N06500,Number of returns with income tax,1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2011,income_tax,A06500,Income tax amount [8],1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2011,tax_liability_n,N10300,Number of returns with tax liability,1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2011,tax_liability,A10300,Total tax liability amount [9],1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2011,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2011,tax_due,A11901,Tax due at time of filing amount [10],1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2011,overpayments_n,N11902,Number of returns with overpayments refunded,1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2011,overpayments,A11902,Overpayments refunded amount [11],1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2012,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2012,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2012,return,N1,Number of returns,,Num,6
+2012,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2012,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2012,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2012,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2012,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2012,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2012,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2012,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2012,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2012,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2012,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2012,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2012,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2012,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2012,dividends_qual,A00650,Qualified dividends amount [3],1040:9b / 1040A:9b,Num,6
+2012,bus_net_income_n,N00900,Number of returns with business orprofessional net income (less loss),1040:12:00,Num,6
+2012,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2012,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2012,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2012,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2012,ira_n,N01400,Number of returns with taxable individual retirementarrangements distributions,1040:15b / 1040:11b,Num,6
+2012,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2012,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2012,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2012,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2012,unemployment,A02300,Unemployment compensation amount [4],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2012,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2012,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2012,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2012,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2012,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2012,itemized_alt_n,N00101,Number of returns with itemized deductions,1040:40:00,Num,6
+2012,itemized_agi,A00101,Amount of AGI for itemized returns,1040:37:00,Num,6
+2012,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2012,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2012,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2012,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2012,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2012,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2012,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2012,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2012,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2012,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2012,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2012,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2012,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2012,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2012,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2012,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2012,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2012,tax_credits_n,N07100,Number of returns with total tax credits,1040:54 / 1040A:34,Num,6
+2012,tax_credits,A07100,Total tax credits amount,1040:54 / 1040A:34,Num,6
+2012,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:48 / 1040A:29,Num,6
+2012,child_dependent_credit,A07180,Child and dependent care credit amount,1040:48 / 1040A:29,Num,6
+2012,child_tax_n,N07220,Number of returns with child tax credit,1040:51 / 1040A:33,Num,6
+2012,child_tax,A07220,Child tax credit amount,1040:51 / 1040A:33,Num,6
+2012,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:52:00,Num,6
+2012,res_energy_credit,A07260,Residential energy tax credit amount,1040:52:00,Num,6
+2012,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:65 / 1040A:39,Num,6
+2012,additional_child_credit,A11070,Additional child tax credit amount,1040:65 / 1040A:39,Num,6
+2012,earned_income_n,N59660,Number of returns with earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2012,earned_income,A59660,Earned income credit amount [5],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2012,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2012,excess_earned_income,A59720,Excess earned income credit (refundable) amount [6],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2012,income_tax_n,N06500,Number of returns with income tax,1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2012,income_tax,A06500,Income tax amount [7],1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2012,tax_liability_n,N10300,Number of returns with tax liability,1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2012,tax_liability,A10300,Total tax liability amount [8],1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2012,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2012,tax_due,A11901,Tax due at time of filing amount [9],1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2012,overpayments_n,N11902,Number of returns with overpayments refunded,1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2012,overpayments,A11902,Overpayments refunded amount [10],1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2013,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2013,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2013,return,N1,Number of returns,,Num,6
+2013,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2013,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2013,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2013,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2013,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2013,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2013,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2013,total_income_n,N02650,Number of returns with total income,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2013,total_income,A02650,Total income amount,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2013,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2013,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2013,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2013,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2013,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2013,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2013,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2013,dividends_qual,A00650,Qualified dividends amount [3],1040:9b / 1040A:9b,Num,6
+2013,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,1040:10:00,Num,6
+2013,state_inc_tax_refund,A00700,State and local income tax refunds amount,1040:10:00,Num,6
+2013,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),1040:12:00,Num,6
+2013,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2013,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2013,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2013,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,6
+2013,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2013,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2013,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2013,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2013,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2013,unemployment,A02300,Unemployment compensation amount [4],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2013,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2013,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2013,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2013,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2013,statutory_n,N02900,Number of returns with total statutory adjustments,1040:36 / 1040A:20,Num,6
+2013,statutory,A02900,Total statutory adjustments amount,1040:36 / 1040A:20,Num,6
+2013,educator_n,N03220,Number of returns with educator expenses,1040:23 / 1040A:16,Num,6
+2013,educator,A03220,Educator expenses amount,1040:23 / 1040A:16,Num,6
+2013,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2013,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2013,self_health_insurance_n,N03270,Number of returns with self-employment health insurance deduction,1040:29:00,Num,6
+2013,self_health_insurance,A03270,Self-employment health insurance deduction amount,1040:29:00,Num,6
+2013,ira_payments_n,N03150,Number of returns with IRA payments,1040:32 / 1040A:17,Num,6
+2013,ira_deduction,A03150,IRA payments amount,1040:32 / 1040A:17,Num,6
+2013,student_loan_n,N03210,Number of returns with student loan interest deduction,1040:33 / 1040A:18,Num,6
+2013,student_loan,A03210,Student loan interest deduction amount,1040:33 / 1040A:18,Num,6
+2013,tuition_fees_n,N03230,Number of returns with tuition and fees deduction,1040:34 / 1040A:19,Num,6
+2013,tuition_fees,A03230,Tuition and fees deduction amount,1040:34 / 1040A:19,Num,6
+2013,domestic_prod_n,N03240,Returns with domestic production activities deduction,1040:35:00,Num,6
+2013,domestic_prod,A03240,Domestic production activities deduction amount,1040:35:00,Num,6
+2013,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2013,itemized_alt_n,N00101,Number of returns with itemized deductions,1040:40:00,Num,6
+2013,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2013,itemized_agi,A00101,Amount of AGI for itemized returns,1040:37:00,Num,6
+2013,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2013,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2013,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2013,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2013,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2013,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2013,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2013,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2013,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2013,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2013,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2013,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2013,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2013,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2013,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:46 / 1040A:28 / 1040EZ:10,Num,6
+2013,taxable_inc_before,A05800,Income tax before credits amount,1040:46 / 1040A:28 / 1040EZ:10,Num,6
+2013,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2013,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2013,tax_credits_n,N07100,Number of returns with total tax credits,1040:54 / 1040A:34,Num,6
+2013,tax_credits,A07100,Total tax credits amount,1040:54 / 1040A:34,Num,6
+2013,foreign_tax_n,N07300,Number of returns with foreign tax credit,1040:47:00,Num,6
+2013,foreign_tax,A07300,Foreign tax credit amount,1040:47:00,Num,6
+2013,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:48 / 1040A:29,Num,6
+2013,child_dependent_credit,A07180,Child and dependent care credit amount,1040:48 / 1040A:29,Num,6
+2013,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,1040:49 / 1040A:31,Num,6
+2013,education_nonrefund,A07230,Nonrefundable education credit amount,1040:49 / 1040A:31,Num,6
+2013,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,1040:50 / 1040A:32,Num,6
+2013,retire_savings,A07240,Retirement savings contribution credit amount,1040:50 / 1040A:32,Num,6
+2013,child_tax_n,N07220,Number of returns with child tax credit,1040:51 / 1040A:33,Num,6
+2013,child_tax,A07220,Child tax credit amount,1040:51 / 1040A:33,Num,6
+2013,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:52:00,Num,6
+2013,res_energy_credit,A07260,Residential energy tax credit amount,1040:52:00,Num,6
+2013,self_employ_tax_n,N09400,Number of returns with self-employment tax,1040:56:00,Num,6
+2013,self_employ_tax,A09400,Self-employment tax amount,1040:56:00,Num,6
+2013,tax_payments_n,N10600,Number of returns with total tax payments,1040:72 / 1040A:41 / 1040EZ:9,Num,6
+2013,tax_payments,A10600,Total tax payments amount,1040:72 / 1040A:41 / 1040EZ:9,Num,6
+2013,earned_income_n,N59660,Number of returns with earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2013,earned_income,A59660,Earned income credit amount [5],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2013,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2013,excess_earned_income,A59720,Excess earned income credit (refundable) amount [6],1040:64a / 1040A:38a / 1040EZ:8b,Num,6
+2013,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:65 / 1040A:39,Num,6
+2013,additional_child_credit,A11070,Additional child tax credit amount,1040:65 / 1040A:39,Num,6
+2013,education_refund_n,N10960,Number of returns with refundable education credit,1040:66 / 1040A:40,Num,6
+2013,education_refund,A10960,Refundable education credit amount,1040:66 / 1040A:40,Num,6
+2013,income_tax_n,N06500,Number of returns with income tax,1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2013,income_tax,A06500,Income tax amount [7],1040:55 / 1040A:35 / 1040EZ:10,Num,6
+2013,tax_liability_n,N10300,Number of returns with tax liability,1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2013,tax_liability,A10300,Total tax liability amount [8],1040:61 / 1040A:35 / 1040EZ: 10,Num,6
+2013,medicare_n,N85330,Number of returns with Additional Medicare tax,1040:60a,Num,6
+2013,medicare,A85330,Additional Medicare tax,1040:60a,Num,6
+2013,investment_income_n,N85300,Number of returns with net investment income tax,1040:60b,Num,6
+2013,investment_income,A85300,Net investment income tax,1040:60b,Num,6
+2013,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2013,tax_due,A11901,Tax due at time of filing amount [9],1040:76 / 1040A:45 / 1040EZ:12,Num,6
+2013,overpayments_n,N11902,Number of returns with overpayments refunded,1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2013,overpayments,A11902,Overpayments refunded amount [10],1040:73 / 1040A:42 / 1040EZ:11a,Num,6
+2014,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2014,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2014,return,N1,Number of returns,,Num,6
+2014,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2014,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2014,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2014,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2014,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2014,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2014,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [3],,Num,6
+2014,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [3],,Num,6
+2014,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [3],,Num,6
+2014,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2014,total_income_n,N02650,Number of returns with total income,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2014,total_income,A02650,Total income amount,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2014,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2014,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2014,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2014,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2014,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2014,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2014,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2014,dividends_qual,A00650,Qualified dividends amount [4],1040:9b / 1040A:9b,Num,6
+2014,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,1040:10:00,Num,6
+2014,state_inc_tax_refund,A00700,State and local income tax refunds amount,1040:10:00,Num,6
+2014,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),1040:12:00,Num,6
+2014,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2014,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2014,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2014,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,6
+2014,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2014,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2014,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2014,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2014,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2014,unemployment,A02300,Unemployment compensation amount [5],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2014,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2014,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2014,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2014,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2014,statutory_n,N02900,Number of returns with total statutory adjustments,1040:36 / 1040A:20,Num,6
+2014,statutory,A02900,Total statutory adjustments amount,1040:36 / 1040A:20,Num,6
+2014,educator_n,N03220,Number of returns with educator expenses,1040:23 / 1040A:16,Num,6
+2014,educator,A03220,Educator expenses amount,1040:23 / 1040A:16,Num,6
+2014,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2014,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2014,self_health_insurance_n,N03270,Number of returns with self-employment health insurance deduction,1040:29:00,Num,6
+2014,self_health_insurance,A03270,Self-employment health insurance deduction amount,1040:29:00,Num,6
+2014,ira_payments_n,N03150,Number of returns with IRA payments,1040:32 / 1040A:17,Num,6
+2014,ira_deduction,A03150,IRA payments amount,1040:32 / 1040A:17,Num,6
+2014,student_loan_n,N03210,Number of returns with student loan interest deduction,1040:33 / 1040A:18,Num,6
+2014,student_loan,A03210,Student loan interest deduction amount,1040:33 / 1040A:18,Num,6
+2014,tuition_fees_n,N03230,Number of returns with tuition and fees deduction,1040:34 / 1040A:19,Num,6
+2014,tuition_fees,A03230,Tuition and fees deduction amount,1040:34 / 1040A:19,Num,6
+2014,domestic_prod_n,N03240,Returns with domestic production activities deduction,1040:35:00,Num,6
+2014,domestic_prod,A03240,Domestic production activities deduction amount,1040:35:00,Num,6
+2014,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2014,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2014,itemized_agi,A00101,Amount of AGI for itemized returns,1040:37:00,Num,6
+2014,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2014,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2014,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2014,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2014,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2014,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2014,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2014,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2014,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2014,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2014,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2014,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2014,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2014,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2014,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2014,taxable_inc_before,A05800,Income tax before credits amount,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2014,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2014,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2014,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,1040:46/ 1040A:29,Num,6
+2014,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,1040:46/ 1040A:29,Num,6
+2014,tax_credits_n,N07100,Number of returns with total tax credits,1040:55 / 1040A:36,Num,6
+2014,tax_credits,A07100,Total tax credits amount,1040:55 / 1040A:36,Num,6
+2014,foreign_tax_n,N07300,Number of returns with foreign tax credit,1040:48:00,Num,6
+2014,foreign_tax,A07300,Foreign tax credit amount,1040:48:00,Num,6
+2014,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:49 / 1040A:31,Num,6
+2014,child_dependent_credit,A07180,Child and dependent care credit amount,1040:49 / 1040A:31,Num,6
+2014,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,1040:50 / 1040A:33,Num,6
+2014,education_nonrefund,A07230,Nonrefundable education credit amount,1040:50 / 1040A:33,Num,6
+2014,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,1040:51 / 1040A:34,Num,6
+2014,retire_savings,A07240,Retirement savings contribution credit amount,1040:51 / 1040A:34,Num,6
+2014,child_tax_n,N07220,Number of returns with child tax credit,1040:52 / 1040A:35,Num,6
+2014,child_tax,A07220,Child tax credit amount,1040:52 / 1040A:35,Num,6
+2014,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:53:00,Num,6
+2014,res_energy_credit,A07260,Residential energy tax credit amount,1040:53:00,Num,6
+2014,self_employ_tax_n,N09400,Number of returns with self-employment tax,1040:57:00,Num,6
+2014,self_employ_tax,A09400,Self-employment tax amount,1040:57:00,Num,6
+2014,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2014,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2014,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2014,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2014,health_care_n,N09750,Number of returns with health care individual responsibility payment,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2014,health_care,A09750,Health care individual responsibility payment amount,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2014,tax_payments_n,N10600,Number of returns with total tax payments,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2014,tax_payments,A10600,Total tax payments amount,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2014,earned_income_n,N59660,Number of returns with earned income credit,1040:66a / 1040A:42a / 1040EZ:8b,Num,6
+2014,earned_income,A59660,Earned income credit amount [6],1040:66a / 1040A:42a / 1040EZ:8b,Num,6
+2014,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:66a / 1040A:42a / 1040EZ:8b,Num,6
+2014,excess_earned_income,A59720,Excess earned income credit (refundable) amount [7],1040:66a / 1040A:42a / 1040EZ:8b,Num,6
+2014,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:67 / 1040A:43,Num,6
+2014,additional_child_credit,A11070,Additional child tax credit amount,1040:67 / 1040A:43,Num,6
+2014,education_refund_n,N10960,Number of returns with refundable education credit,1040:68 / 1040A:44,Num,6
+2014,education_refund,A10960,Refundable education credit amount,1040:68 / 1040A:44,Num,6
+2014,net_premium_credit_n,N11560,Number of returns with net premium tax credit,1040:69 / 1040A:45,Num,6
+2014,net_premium_credit,A11560,Net premium tax credit amount,1040:69 / 1040A:45,Num,6
+2014,income_tax_n,N06500,Number of returns with income tax,1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2014,income_tax,A06500,Income tax amount [8],1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2014,tax_liability_n,N10300,Number of returns with tax liability,1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2014,tax_liability,A10300,Total tax liability amount [9],1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2014,medicare_n,N85530,Number of returns with additional Medicare tax,1040:62a,Num,6
+2014,medicare,A85530,Additional Medicare tax amount,1040:62a,Num,6
+2014,investment_income_n,N85300,Number of returns with net investment income tax,1040:62b,Num,6
+2014,investment_income,A85300,Net investment income tax amount,1040:62b,Num,6
+2014,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2014,tax_due,A11901,Tax due at time of filing amount [10],1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2014,overpayments_n,N11902,Number of returns with overpayments refunded,1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2014,overpayments,A11902,Overpayments refunded amount [11],1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2015,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2015,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2015,return,N1,Number of returns,,Num,6
+2015,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2015,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2015,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2015,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2015,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2015,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2015,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [3],,Num,6
+2015,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [3],,Num,6
+2015,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [3],,Num,6
+2015,vita_eic,VITA_EIC,Number of volunteer prepared returns with Earned Income Credit [3],,Num,6
+2015,ral,RAL,Number of refund anticipation loan returns,,Num,6
+2015,rac,RAC,Number of refund anticipation check returns,,Num,6
+2015,elderly,ELDERLY,Number of elderly returns [4],,Num,6
+2015,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2015,total_income_n,N02650,Number of returns with total income,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2015,total_income,A02650,Total income amount,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2015,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2015,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2015,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2015,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2015,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2015,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2015,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2015,dividends_qual,A00650,Qualified dividends amount [5],1040:9b / 1040A:9b,Num,6
+2015,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,1040:10:00,Num,6
+2015,state_inc_tax_refund,A00700,State and local income tax refunds amount,1040:10:00,Num,6
+2015,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),1040:12:00,Num,6
+2015,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2015,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2015,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2015,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,6
+2015,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2015,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2015,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2015,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2015,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2015,unemployment,A02300,Unemployment compensation amount [6],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2015,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2015,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2015,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2015,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2015,statutory_n,N02900,Number of returns with total statutory adjustments,1040:36 / 1040A:20,Num,6
+2015,statutory,A02900,Total statutory adjustments amount,1040:36 / 1040A:20,Num,6
+2015,educator_n,N03220,Number of returns with educator expenses,1040:23 / 1040A:16,Num,6
+2015,educator,A03220,Educator expenses amount,1040:23 / 1040A:16,Num,6
+2015,self_employ_n,N03300,Number of returns with self-employment retirement plans,1040:28:00,Num,6
+2015,self_employ,A03300,Self-employment retirement plans amount,1040:28:00,Num,6
+2015,self_health_insurance_n,N03270,Number of returns with self-employment health insurance deduction,1040:29:00,Num,6
+2015,self_health_insurance,A03270,Self-employment health insurance deduction amount,1040:29:00,Num,6
+2015,ira_payments_n,N03150,Number of returns with IRA payments,1040:32 / 1040A:17,Num,6
+2015,ira_deduction,A03150,IRA payments amount,1040:32 / 1040A:17,Num,6
+2015,student_loan_n,N03210,Number of returns with student loan interest deduction,1040:33 / 1040A:18,Num,6
+2015,student_loan,A03210,Student loan interest deduction amount,1040:33 / 1040A:18,Num,6
+2015,tuition_fees_n,N03230,Number of returns with tuition and fees deduction,1040:34 / 1040A:19,Num,6
+2015,tuition_fees,A03230,Tuition and fees deduction amount,1040:34 / 1040A:19,Num,6
+2015,domestic_prod_n,N03240,Returns with domestic production activities deduction,1040:35:00,Num,6
+2015,domestic_prod,A03240,Domestic production activities deduction amount,1040:35:00,Num,6
+2015,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2015,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2015,itemized_agi,A00101,Amount of AGI for itemized returns,1040:37:00,Num,6
+2015,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2015,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2015,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2015,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2015,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2015,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2015,taxes_n,N18300,Number of returns with taxes paid,Schedule A:9,Num,6
+2015,taxes,A18300,Taxes paid amount,Schedule A:9,Num,6
+2015,mortgage_interest_n,N19300,Number of returns with mortgage interest paid,Schedule A:10,Num,6
+2015,mortgage_interest,A19300,Mortgage interest paid amount,Schedule A:10,Num,6
+2015,contributions_n,N19700,Number of returns with contributions,Schedule A:19,Num,6
+2015,contributions,A19700,Contributions amount,Schedule A:19,Num,6
+2015,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2015,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2015,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2015,taxable_inc_before,A05800,Income tax before credits amount,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2015,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2015,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2015,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,1040:46/ 1040A:29,Num,6
+2015,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,1040:46/ 1040A:29,Num,6
+2015,tax_credits_n,N07100,Number of returns with total tax credits,1040:55 / 1040A:36,Num,6
+2015,tax_credits,A07100,Total tax credits amount,1040:55 / 1040A:36,Num,6
+2015,foreign_tax_n,N07300,Number of returns with foreign tax credit,1040:48:00,Num,6
+2015,foreign_tax,A07300,Foreign tax credit amount,1040:48:00,Num,6
+2015,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:49 / 1040A:31,Num,6
+2015,child_dependent_credit,A07180,Child and dependent care credit amount,1040:49 / 1040A:31,Num,6
+2015,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,1040:50 / 1040A:33,Num,6
+2015,education_nonrefund,A07230,Nonrefundable education credit amount,1040:50 / 1040A:33,Num,6
+2015,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,1040:51 / 1040A:34,Num,6
+2015,retire_savings,A07240,Retirement savings contribution credit amount,1040:51 / 1040A:34,Num,6
+2015,child_tax_n,N07220,Number of returns with child tax credit,1040:52 / 1040A:35,Num,6
+2015,child_tax,A07220,Child tax credit amount,1040:52 / 1040A:35,Num,6
+2015,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:53:00,Num,6
+2015,res_energy_credit,A07260,Residential energy tax credit amount,1040:53:00,Num,6
+2015,self_employ_tax_n,N09400,Number of returns with self-employment tax,1040:57:00,Num,6
+2015,self_employ_tax,A09400,Self-employment tax amount,1040:57:00,Num,6
+2015,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2015,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2015,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2015,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2015,health_care_n,N09750,Number of returns with health care individual responsibility payment,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2015,health_care,A09750,Health care individual responsibility payment amount,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2015,tax_payments_n,N10600,Number of returns with total tax payments,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2015,tax_payments,A10600,Total tax payments amount,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2015,earned_income_n,N59660,Number of returns with earned income credit,1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2015,earned_income,A59660,Earned income credit amount [7],1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2015,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2015,excess_earned_income,A59720,Excess earned income credit (refundable) amount [8],1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2015,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:67 / 1040A:43,Num,6
+2015,additional_child_credit,A11070,Additional child tax credit amount,1040:67 / 1040A:43,Num,6
+2015,education_refund_n,N10960,Number of returns with refundable education credit,1040:68 / 1040A:44,Num,6
+2015,education_refund,A10960,Refundable education credit amount,1040:68 / 1040A:44,Num,6
+2015,net_premium_credit_n,N11560,Number of returns with net premium tax credit,1040:69 / 1040A:45,Num,6
+2015,net_premium_credit,A11560,Net premium tax credit amount,1040:69 / 1040A:45,Num,6
+2015,income_tax_n,N06500,Number of returns with income tax,1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2015,income_tax,A06500,Income tax amount [9],1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2015,tax_liability_n,N10300,Number of returns with tax liability,1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2015,tax_liability,A10300,Total tax liability amount [10],1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2015,medicare_n,N85530,Number of returns with additional Medicare tax,1040:62a,Num,6
+2015,medicare,A85530,Additional Medicare tax amount,1040:62a,Num,6
+2015,investment_income_n,N85300,Number of returns with net investment income tax,1040:62b,Num,6
+2015,investment_income,A85300,Net investment income tax amount,1040:62b,Num,6
+2015,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2015,tax_due,A11901,Tax due at time of filing amount [11],1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2015,overpayments_n,N11902,Number of returns with overpayments refunded,1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2015,overpayments,A11902,Overpayments refunded amount [12],1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2016,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2016,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2016,return,N1,Number of returns,,Num,6
+2016,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2016,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2016,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2016,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2016,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2016,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2016,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [3],,Num,6
+2016,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [3],,Num,6
+2016,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [3],,Num,6
+2016,vita_eic,VITA_EIC,Number of volunteer prepared returns with Earned Income Credit [3],,Num,6
+2016,ral,RAL,Number of refund anticipation loan returns,,Num,6
+2016,rac,RAC,Number of refund anticipation check returns,,Num,6
+2016,elderly,ELDERLY,Number of elderly returns [4],,Num,6
+2016,agi,A00100,Adjust gross income (AGI) [2],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2016,total_income_n,N02650,Number of returns with total income,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2016,total_income,A02650,Total income amount,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2016,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2016,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2016,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2016,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2016,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2016,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2016,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2016,dividends_qual,A00650,Qualified dividends amount [5],1040:9b / 1040A:9b,Num,6
+2016,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,1040:10:00,Num,6
+2016,state_inc_tax_refund,A00700,State and local income tax refunds amount,1040:10:00,Num,6
+2016,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),1040:12:00,Num,6
+2016,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2016,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2016,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2016,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,6
+2016,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2016,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2016,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2016,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2016,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2016,unemployment,A02300,Unemployment compensation amount [6],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2016,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2016,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2016,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2016,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2016,statutory_n,N02900,Number of returns with total statutory adjustments,1040:36 / 1040A:20,Num,6
+2016,statutory,A02900,Total statutory adjustments amount,1040:36 / 1040A:20,Num,6
+2016,educator_n,N03220,Number of returns with educator expenses,1040:23 / 1040A:16,Num,6
+2016,educator,A03220,Educator expenses amount,1040:23 / 1040A:16,Num,6
+2016,self_employ_n,N03300,Number of returns with Self-employed (Keogh) retirement plans,1040:28:00,Num,6
+2016,self_employ,A03300,Self-employed (Keogh) retirement plans amount,1040:28:00,Num,6
+2016,self_health_insurance_n,N03270,Number of returns with Self-employed health insurance deduction,1040:29:00,Num,6
+2016,self_health_insurance,A03270,Self-employed health insurance deduction amount,1040:29:00,Num,6
+2016,ira_payments_n,N03150,Number of returns with Individual retirement arrangement payments,1040:32 / 1040A:17,Num,6
+2016,ira_deduction,A03150,Individual retirement arrangement payments amount,1040:32 / 1040A:17,Num,6
+2016,student_loan_n,N03210,Number of returns with student loan interest deduction,1040:33 / 1040A:18,Num,6
+2016,student_loan,A03210,Student loan interest deduction amount,1040:33 / 1040A:18,Num,6
+2016,tuition_fees_n,N03230,Number of returns with tuition and fees deduction,1040:34 / 1040A:19,Num,6
+2016,tuition_fees,A03230,Tuition and fees deduction amount,1040:34 / 1040A:19,Num,6
+2016,domestic_prod_n,N03240,Returns with domestic production activities deduction,1040:35:00,Num,6
+2016,domestic_prod,A03240,Domestic production activities deduction amount,1040:35:00,Num,6
+2016,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2016,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2016,itemized_agi,A00101,Amount of AGI for itemized returns,1040:37:00,Num,6
+2016,medical_dental_n,N17000,Number of returns with Total medical and dental expense deduction,Schedule A:4,Num,6
+2016,medical_dental,A17000,Total medical and dental expense deduction amount,Schedule A:4,Num,6
+2016,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2016,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2016,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2016,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2016,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2016,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2016,personal_prop_tax_n,N18800,Number of returns with Personal property taxes,Schedule A:7,Num,6
+2016,personal_prop_tax,A18800,Personal property taxes amount,Schedule A:7,Num,6
+2016,mortgage_interest_n,N19300,Number of returns with Home mortgage interest paid,Schedule A:10,Num,6
+2016,mortgage_interest,A19300,Home mortgage interest paid amount,Schedule A:10,Num,6
+2016,mortgage_seller_n,N19500,Number of returns with Home mortgage from personal seller,Schedule A:11,Num,6
+2016,mortgage_seller,A19500,Home mortgage from personal seller amount,Schedule A:11,Num,6
+2016,deductible_n,N19530,Number of returns with Deductible points,Schedule A:12,Num,6
+2016,deductible,A19530,Deductible points amount,Schedule A:12,Num,6
+2016,qual_mortgage_n,N19550,Number of returns with Qualified Mortgage Insurance premiums,Schedule A:13,Num,6
+2016,qual_mortgage,A19550,Qualified Mortgage Insurance premiums amount,Schedule A:13,Num,6
+2016,investment_interest_n,N19570,Number of returns with Investment interest paid,Schedule A:14,Num,6
+2016,investment_interest,A19570,Investment interest paid amount,Schedule A:14,Num,6
+2016,contributions_n,N19700,Number of returns with Total charitable contributions,Schedule A:19,Num,6
+2016,contributions,A19700,Total charitable contributions amount,Schedule A:19,Num,6
+2016,limited_miscellaneous_n,N20800,Number of returns with Net limited miscellaneous deduction,Schedule A:27,Num,6
+2016,limited_miscellaneous,A20800,Net limited miscellaneous deduction amount,Schedule A:27,Num,6
+2016,other_miscellaneous_n,N21020,Number of returns with Other non-limited miscellaneous deduction,Schedule A:28,Num,6
+2016,other_miscellaneous,A21020,Other non-limited miscellaneous deduction amount,Schedule A:28,Num,6
+2016,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2016,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2016,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2016,taxable_inc_before,A05800,Income tax before credits amount,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2016,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2016,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2016,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,1040:46/ 1040A:29,Num,6
+2016,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,1040:46/ 1040A:29,Num,6
+2016,tax_credits_n,N07100,Number of returns with total tax credits,1040:55 / 1040A:36,Num,6
+2016,tax_credits,A07100,Total tax credits amount,1040:55 / 1040A:36,Num,6
+2016,foreign_tax_n,N07300,Number of returns with foreign tax credit,1040:48:00,Num,6
+2016,foreign_tax,A07300,Foreign tax credit amount,1040:48:00,Num,6
+2016,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:49 / 1040A:31,Num,6
+2016,child_dependent_credit,A07180,Child and dependent care credit amount,1040:49 / 1040A:31,Num,6
+2016,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,1040:50 / 1040A:33,Num,6
+2016,education_nonrefund,A07230,Nonrefundable education credit amount,1040:50 / 1040A:33,Num,6
+2016,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,1040:51 / 1040A:34,Num,6
+2016,retire_savings,A07240,Retirement savings contribution credit amount,1040:51 / 1040A:34,Num,6
+2016,child_tax_n,N07220,Number of returns with child tax credit,1040:52 / 1040A:35,Num,6
+2016,child_tax,A07220,Child tax credit amount,1040:52 / 1040A:35,Num,6
+2016,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:53:00,Num,6
+2016,res_energy_credit,A07260,Residential energy tax credit amount,1040:53:00,Num,6
+2016,self_employ_tax_n,N09400,Number of returns with self-employment tax,1040:57:00,Num,6
+2016,self_employ_tax,A09400,Self-employment tax amount,1040:57:00,Num,6
+2016,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2016,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2016,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2016,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2016,health_care_n,N09750,Number of returns with health care individual responsibility payment,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2016,health_care,A09750,Health care individual responsibility payment amount,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2016,tax_payments_n,N10600,Number of returns with total tax payments,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2016,tax_payments,A10600,Total tax payments amount,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2016,earned_income_n,N59660,Number of returns with earned income credit,1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2016,earned_income,A59660,Earned income credit amount [7],1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2016,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2016,excess_earned_income,A59720,Excess earned income credit (refundable) amount [8],1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2016,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:67 / 1040A:43,Num,6
+2016,additional_child_credit,A11070,Additional child tax credit amount,1040:67 / 1040A:43,Num,6
+2016,education_refund_n,N10960,Number of returns with refundable education credit,1040:68 / 1040A:44,Num,6
+2016,education_refund,A10960,Refundable education credit amount,1040:68 / 1040A:44,Num,6
+2016,net_premium_credit_n,N11560,Number of returns with net premium tax credit,1040:69 / 1040A:45,Num,6
+2016,net_premium_credit,A11560,Net premium tax credit amount,1040:69 / 1040A:45,Num,6
+2016,income_tax_n,N06500,Number of returns with income tax,1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2016,income_tax,A06500,Income tax amount [9],1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2016,tax_liability_n,N10300,Number of returns with tax liability,1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2016,tax_liability,A10300,Total tax liability amount [10],1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2016,medicare_n,N85530,Number of returns with additional Medicare tax,1040:62a,Num,6
+2016,medicare,A85530,Additional Medicare tax amount,1040:62a,Num,6
+2016,investment_income_n,N85300,Number of returns with net investment income tax,1040:62b,Num,6
+2016,investment_income,A85300,Net investment income tax amount,1040:62b,Num,6
+2016,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2016,tax_due,A11901,Tax due at time of filing amount [11],1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2016,overpayments_n,N11902,Number of returns with overpayments refunded,1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2016,overpayments,A11902,Overpayments refunded amount [12],1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2017,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2017,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2017,return,N1,Number of returns,,Num,6
+2017,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2017,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2017,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2017,elf,ELF,Number of electronically filed returns,,Num,6
+2017,cprep,CPREP,Number of computer prepared paper returns,,Num,6
+2017,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2017,dir_dep,DIR_DEP,Number of returns with direct deposit,,Num,6
+2017,exmpt,N2,Number of exemptions,1040:6d,Num,6
+2017,dependents,NUMDEP,Number of dependents,1040:6c,Num,6
+2017,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [3],,Num,6
+2017,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [3],,Num,6
+2017,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [3],,Num,6
+2017,vita_eic,VITA_EIC,Number of volunteer prepared returns with Earned Income Credit [3],,Num,6
+2017,rac,RAC,Number of refund anticipation check returns,,Num,6
+2017,elderly,ELDERLY,Number of elderly returns [4],,Num,6
+2017,agi,A00100,Adjusted gross income (AGI) [5],1040:37 / 1040A:21 / 1040EZ:4,Num,6
+2017,total_income_n,N02650,Number of returns with total income,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2017,total_income,A02650,Total income amount,1040:22 / 1040A:15 / 1040EZ:4,Num,6
+2017,wages_n,N00200,Number of returns with salaries and wages,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2017,wages,A00200,Salaries and wages amount,1040:7 / 1040A:7 / 1040EZ:1,Num,6
+2017,interest_n,N00300,Number of returns with taxable interest,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2017,interest,A00300,Taxable interest amount,1040:8a / 1040A:8a / 1040EZ:2,Num,6
+2017,dividends_n,N00600,Number of returns with ordinary dividends,1040:9a / 1040A:9a,Num,6
+2017,dividends,A00600,Ordinary dividends amount,1040:9a / 1040A:9a,Num,6
+2017,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:9b / 1040A:9b,Num,6
+2017,dividends_qual,A00650,Qualified dividends amount [6],1040:9b / 1040A:9b,Num,6
+2017,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,1040:10:00,Num,6
+2017,state_inc_tax_refund,A00700,State and local income tax refunds amount,1040:10:00,Num,6
+2017,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),1040:12:00,Num,6
+2017,bus_net_income,A00900,Business or professional net income (less loss) amount,1040:12:00,Num,6
+2017,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:131040A:10,Num,6
+2017,capital_gain,A01000,Net capital gain (less loss) amount,1040:131040A:10,Num,6
+2017,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:15b / 1040:11b,Num,6
+2017,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:15b / 1040:11b,Num,6
+2017,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:16b / 1040A:12b,Num,6
+2017,pensions,A01700,Taxable pensions and annuities amount,1040:16b / 1040A:12b,Num,6
+2017,farm_n,SCHF,Number of farm returns,1040:18:00,Num,6
+2017,unemployment_n,N02300,Number of returns with unemployment compensation,1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2017,unemployment,A02300,Unemployment compensation amount [7],1040:19 / 1040A:13 / 1040EZ:3,Num,6
+2017,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:20b / 1040A:14b,Num,6
+2017,social_security,A02500,Taxable Social Security benefits amount,1040:20b / 1040A:14b,Num,6
+2017,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2017,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2017,statutory_n,N02900,Number of returns with total statutory adjustments,1040:36 / 1040A:20,Num,6
+2017,statutory,A02900,Total statutory adjustments amount,1040:36 / 1040A:20,Num,6
+2017,educator_n,N03220,Number of returns with educator expenses,1040:23 / 1040A:16,Num,6
+2017,educator,A03220,Educator expenses amount,1040:23 / 1040A:16,Num,6
+2017,self_employ_n,N03300,Number of returns with Self-employed (Keogh) retirement plans,1040:28:00,Num,6
+2017,self_employ,A03300,Self-employed (Keogh) retirement plans amount,1040:28:00,Num,6
+2017,self_health_insurance_n,N03270,Number of returns with Self-employed health insurance deduction,1040:29:00,Num,6
+2017,self_health_insurance,A03270,Self-employed health insurance deduction amount,1040:29:00,Num,6
+2017,ira_payments_n,N03150,Number of returns with Individual retirement arrangement payments,1040:32 / 1040A:17,Num,6
+2017,ira_deduction,A03150,Individual retirement arrangement payments amount,1040:32 / 1040A:17,Num,6
+2017,student_loan_n,N03210,Number of returns with student loan interest deduction,1040:33 / 1040A:18,Num,6
+2017,student_loan,A03210,Student loan interest deduction amount,1040:33 / 1040A:18,Num,6
+2017,tuition_fees_n,N03230,Number of returns with tuition and fees deduction,1040:34 / 1040A:19,Num,6
+2017,tuition_fees,A03230,Tuition and fees deduction amount,1040:34 / 1040A:19,Num,6
+2017,domestic_prod_n,N03240,Returns with domestic production activities deduction,1040:35:00,Num,6
+2017,domestic_prod,A03240,Domestic production activities deduction amount,1040:35:00,Num,6
+2017,itemized_n,N04470,Number of returns with itemized deductions,1040:40:00,Num,6
+2017,itemized,A04470,Total itemized deductions amount,1040:40:00,Num,6
+2017,itemized_agi,A00101,Amount of AGI for itemized returns,1040:37:00,Num,6
+2017,medical_dental_n,N17000,Number of returns with Total medical and dental expense deduction,Schedule A:4,Num,6
+2017,medical_dental,A17000,Total medical and dental expense deduction amount,Schedule A:4,Num,6
+2017,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2017,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2017,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5b,Num,6
+2017,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5b,Num,6
+2017,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:6,Num,6
+2017,real_estate_tax,A18500,Real estate taxes amount,Schedule A:6,Num,6
+2017,personal_prop_tax_n,N18800,Number of returns with Personal property taxes,Schedule A:7,Num,6
+2017,personal_prop_tax,A18800,Personal property taxes amount,Schedule A:7,Num,6
+2017,mortgage_interest_n,N19300,Number of returns with Home mortgage interest paid,Schedule A:10,Num,6
+2017,mortgage_interest,A19300,Home mortgage interest paid amount,Schedule A:10,Num,6
+2017,mortgage_seller_n,N19500,Number of returns with Home mortgage from personal seller,Schedule A:11,Num,6
+2017,mortgage_seller,A19500,Home mortgage from personal seller amount,Schedule A:11,Num,6
+2017,deductible_n,N19530,Number of returns with Deductible points,Schedule A:12,Num,6
+2017,deductible,A19530,Deductible points amount,Schedule A:12,Num,6
+2017,qual_mortgage_n,N19550,Number of returns with Qualified Mortgage Insurance premiums,Schedule A:13,Num,6
+2017,qual_mortgage,A19550,Qualified Mortgage Insurance premiums amount,Schedule A:13,Num,6
+2017,investment_interest_n,N19570,Number of returns with Investment interest paid,Schedule A:14,Num,6
+2017,investment_interest,A19570,Investment interest paid amount,Schedule A:14,Num,6
+2017,contributions_n,N19700,Number of returns with Total charitable contributions,Schedule A:19,Num,6
+2017,contributions,A19700,Total charitable contributions amount,Schedule A:19,Num,6
+2017,limited_miscellaneous_n,N20800,Number of returns with Net limited miscellaneous deduction,Schedule A:27,Num,6
+2017,limited_miscellaneous,A20800,Net limited miscellaneous deduction amount,Schedule A:27,Num,6
+2017,other_miscellaneous_n,N20950,Number of returns with Gambling loss deduction and other non-limited miscellaneous deduction,Schedule A:28,Num,6
+2017,other_miscellaneous,A20950,Gambling loss deduction and other non-limited miscellaneous deduction amount,Schedule A:28,Num,6
+2017,taxable_inc_n,N04800,Number of returns with taxable income,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2017,taxable_inc,A04800,Taxable income amount,1040:43 / 1040A:27 / 1040EZ:6,Num,6
+2017,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2017,taxable_inc_before,A05800,Income tax before credits amount,1040:47 / 1040A:30 / 1040EZ:10,Num,6
+2017,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,1040:45:00,Num,6
+2017,alternative_minimum,A09600,Alternative minimum tax amount,1040:45:00,Num,6
+2017,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,1040:46/ 1040A:29,Num,6
+2017,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,1040:46/ 1040A:29,Num,6
+2017,tax_credits_n,N07100,Number of returns with total tax credits,1040:55 / 1040A:36,Num,6
+2017,tax_credits,A07100,Total tax credits amount,1040:55 / 1040A:36,Num,6
+2017,foreign_tax_n,N07300,Number of returns with foreign tax credit,1040:48:00,Num,6
+2017,foreign_tax,A07300,Foreign tax credit amount,1040:48:00,Num,6
+2017,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,1040:49 / 1040A:31,Num,6
+2017,child_dependent_credit,A07180,Child and dependent care credit amount,1040:49 / 1040A:31,Num,6
+2017,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,1040:50 / 1040A:33,Num,6
+2017,education_nonrefund,A07230,Nonrefundable education credit amount,1040:50 / 1040A:33,Num,6
+2017,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,1040:51 / 1040A:34,Num,6
+2017,retire_savings,A07240,Retirement savings contribution credit amount,1040:51 / 1040A:34,Num,6
+2017,child_tax_n,N07220,Number of returns with child tax credit,1040:52 / 1040A:35,Num,6
+2017,child_tax,A07220,Child tax credit amount,1040:52 / 1040A:35,Num,6
+2017,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,1040:53:00,Num,6
+2017,res_energy_credit,A07260,Residential energy tax credit amount,1040:53:00,Num,6
+2017,self_employ_tax_n,N09400,Number of returns with self-employment tax,1040:57:00,Num,6
+2017,self_employ_tax,A09400,Self-employment tax amount,1040:57:00,Num,6
+2017,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2017,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2017,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2017,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2017,health_care_n,N09750,Number of returns with health care individual responsibility payment,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2017,health_care,A09750,Health care individual responsibility payment amount,1040:61 / 1040A:38 / 1040EZ:11,Num,6
+2017,tax_payments_n,N10600,Number of returns with total tax payments,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2017,tax_payments,A10600,Total tax payments amount,1040:74 / 1040A:46 / 1040EZ:9,Num,6
+2017,earned_income_n,N59660,Number of returns with earned income credit,1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2017,earned_income,A59660,Earned income credit amount [8],1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2017,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2017,excess_earned_income,A59720,Excess earned income credit (refundable) amount [9],1040:66a / 1040A:42a / 1040EZ:8a,Num,6
+2017,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:67 / 1040A:43,Num,6
+2017,additional_child_credit,A11070,Additional child tax credit amount,1040:67 / 1040A:43,Num,6
+2017,education_refund_n,N10960,Number of returns with refundable education credit,1040:68 / 1040A:44,Num,6
+2017,education_refund,A10960,Refundable education credit amount,1040:68 / 1040A:44,Num,6
+2017,net_premium_credit_n,N11560,Number of returns with net premium tax credit,1040:69 / 1040A:45,Num,6
+2017,net_premium_credit,A11560,Net premium tax credit amount,1040:69 / 1040A:45,Num,6
+2017,income_tax_n,N06500,Number of returns with income tax,1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2017,income_tax,A06500,Income tax amount [10],1040:56 / 1040A:37 / 1040EZ:10,Num,6
+2017,tax_liability_n,N10300,Number of returns with tax liability,1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2017,tax_liability,A10300,Total tax liability amount [11],1040:63 / 1040A:39 / 1040EZ: 10,Num,6
+2017,medicare_n,N85530,Number of returns with additional Medicare tax,1040:62a,Num,6
+2017,medicare,A85530,Additional Medicare tax amount,1040:62a,Num,6
+2017,investment_income_n,N85300,Number of returns with net investment income tax,1040:62b,Num,6
+2017,investment_income,A85300,Net investment income tax amount,1040:62b,Num,6
+2017,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2017,tax_due,A11901,Tax due at time of filing amount [12],1040:78 / 1040A:50 / 1040EZ:14,Num,6
+2017,overpayments_total_n,N11900,Number of returns with total overpayments,1040:75 / 1040A:47 / 1040EZ: 13a,Num,6
+2017,overpayment_total,A11900,Total overpayments amount,1040:75 / 1040A:47 / 1040EZ:13a,Num,6
+2017,overpayments_n,N11902,Number of returns with overpayments refunded,1040:76a/1040A:48a/1040EZ:13a,Num,6
+2017,overpayments,A11902,Overpayments refunded amount [13],1040:76a/1040A:48a/1040EZ:13a,Num,6
+2017,credit_next_n,N12000,Number of returns with credit to next year’s estimated tax,1040:77 / 1040A:49,Num,6
+2017,credit_next,A12000,Credited to next year’s estimated tax amount,1040:77 / 1040A:49,Num,6
+2018,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2018,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2018,return,N1,Number of returns,,Num,6
+2018,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2018,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2018,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2018,elf,ELF,Number of electronically filed returns,,Num,6
+2018,cprep,CPREP,Number of computer prepared paper returns,,Num,6
+2018,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2018,dir_dep,DIR_DEP,Number of returns with direct deposit,,Num,6
+2018,exmpt,N2,Number of individuals [3],,Num,6
+2018,dependents,NUMDEP,Number of dependents,1040: Dependents,Num,6
+2018,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [4],,Num,6
+2018,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [4],,Num,6
+2018,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [4],,Num,6
+2018,vita_eic,VITA_EIC,Number of volunteer prepared returns with Earned Income Credit [4],,Num,6
+2018,rac,RAC,Number of refund anticipation check returns [5],,Num,6
+2018,elderly,ELDERLY,Number of elderly returns [6],,Num,6
+2018,agi,A00100,Adjust gross income (AGI) [7],1040:07:00,Num,6
+2018,total_income_n,N02650,Number of returns with total income,1040:06:00,Num,6
+2018,total_income,A02650,Total income amount,1040:06:00,Num,6
+2018,wages_n,N00200,Number of returns with salaries and wages,1040:01:00,Num,6
+2018,wages,A00200,Salaries and wages amount,1040:01:00,Num,6
+2018,interest_n,N00300,Number of returns with taxable interest,1040:2b,Num,6
+2018,interest,A00300,Taxable interest amount,1040:2b,Num,6
+2018,dividends_n,N00600,Number of returns with ordinary dividends,1040:3b,Num,6
+2018,dividends,A00600,Ordinary dividends amount,1040:3b,Num,6
+2018,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:3a,Num,6
+2018,dividends_qual,A00650,Qualified dividends amount [8],1040:3a,Num,6
+2018,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,Schedule 1:10,Num,6
+2018,state_inc_tax_refund,A00700,State and local income tax refunds amount,Schedule 1:10,Num,6
+2018,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),Schedule 1:12,Num,6
+2018,bus_net_income,A00900,Business or professional net income (less loss) amount,Schedule 1:12,Num,6
+2018,capital_gain_n,N01000,Number of returns with net capital gain (less loss),Schedule 1:13,Num,6
+2018,capital_gain,A01000,Net capital gain (less loss) amount,Schedule 1:13,Num,6
+2018,pensions_n,N01750,"Number of returns with taxable individual retirement arrangements (IRA), pensions and annuities",1040:4a,Num,6
+2018,pensions,A01750,"Taxable IRA, pensions and annuities amount",1040:4a,Num,6
+2018,farm_n,SCHF,Number of farm returns,Schedule 1:18,Num,6
+2018,unemployment_n,N02300,Number of returns with unemployment compensation,Schedule 1:19,Num,6
+2018,unemployment,A02300,Unemployment compensation amount [9],Schedule 1:19,Num,6
+2018,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:5b,Num,6
+2018,social_security,A02500,Taxable Social Security benefits amount,1040:5b,Num,6
+2018,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2018,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2018,statutory_n,N02900,Number of returns with total statutory adjustments,Schedule 1:36,Num,6
+2018,statutory,A02900,Total statutory adjustments amount,Schedule 1:36,Num,6
+2018,educator_n,N03220,Number of returns with educator expenses,Schedule 1:23,Num,6
+2018,educator,A03220,Educator expenses amount,Schedule 1:23,Num,6
+2018,self_employ_n,N03300,Number of returns with Self-employed (Keogh) retirement plans,Schedule 1:28,Num,6
+2018,self_employ,A03300,Self-employed (Keogh) retirement plans amount,Schedule 1:28,Num,6
+2018,self_health_insurance_n,N03270,Number of returns with Self-employed health insurance deduction,Schedule 1:29,Num,6
+2018,self_health_insurance,A03270,Self-employed health insurance deduction amount,Schedule 1:29,Num,6
+2018,ira_payments_n,N03150,Number of returns with Individual retirement arrangement payments,Schedule 1:32,Num,6
+2018,ira_deduction,A03150,Individual retirement arrangement payments amount,Schedule 1:32,Num,6
+2018,student_loan_n,N03210,Number of returns with student loan interest deduction,Schedule 1:33,Num,6
+2018,student_loan,A03210,Student loan interest deduction amount,Schedule 1:33,Num,6
+2018,standard_deduction_n,N04450,Number of returns with total standard deduction,1040:08:00,Num,6
+2018,standard_deduction,A04450,Total standard deduction amount,1040:08:00,Num,6
+2018,basic_standard_n,N04100,Number of returns with basic standard deduction,1040:08:00,Num,6
+2018,basic_standard,A04100,Basic standard deduction amount,1040:08:00,Num,6
+2018,additional_standard_n,N04200,Number of returns with additional standard deduction,1040:08:00,Num,6
+2018,additional_standard,A04200,Additional standard deduction amount,1040:08:00,Num,6
+2018,itemized_n,N04470,Number of returns with itemized deductions,1040:08:00,Num,6
+2018,itemized,A04470,Total itemized deductions amount,1040:08:00,Num,6
+2018,itemized_agi,A00101,Amount of AGI for itemized returns,1040:07:00,Num,6
+2018,medical_dental_n,N17000,Number of returns with Total medical and dental expense deduction,Schedule A:4,Num,6
+2018,medical_dental,A17000,Total medical and dental expense deduction amount,Schedule A:4,Num,6
+2018,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2018,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2018,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5a,Num,6
+2018,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5a,Num,6
+2018,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:5b,Num,6
+2018,real_estate_tax,A18500,Real estate taxes amount,Schedule A:5b,Num,6
+2018,personal_prop_tax_n,N18800,Number of returns with Personal property taxes,Schedule A:5c,Num,6
+2018,personal_prop_tax,A18800,Personal property taxes amount,Schedule A:5c,Num,6
+2018,limited_state_local_tax_n,N18460,Number of returns with Limited state and local taxes,Schedule A:5e,Num,6
+2018,limited_state_local_tax,A18460,Limited state and local taxes,Schedule A:5e,Num,6
+2018,taxes_n,N18300,Number of returns with Total taxes paid,Schedule A:7,Num,6
+2018,taxes,A18300,Total taxes paid amount,Schedule A:7,Num,6
+2018,mortgage_interest_n,N19300,Number of returns with Home mortgage interest paid,Schedule A:8a,Num,6
+2018,mortgage_interest,A19300,Home mortgage interest paid amount,Schedule A:8a,Num,6
+2018,mortgage_seller_n,N19500,Number of returns with Home mortgage from personal seller,Schedule A:8b,Num,6
+2018,mortgage_seller,A19500,Home mortgage from personal seller amount,Schedule A:8b,Num,6
+2018,deductible_n,N19530,Number of returns with Deductible points,Schedule A:8c,Num,6
+2018,deductible,A19530,Deductible points amount,Schedule A:8c,Num,6
+2018,investment_interest_n,N19570,Number of returns with Investment interest paid,Schedule A:9,Num,6
+2018,investment_interest,A19570,Investment interest paid amount,Schedule A:9,Num,6
+2018,contributions_n,N19700,Number of returns with Total charitable contributions,Schedule A:14,Num,6
+2018,contributions,A19700,Total charitable contributions amount,Schedule A:14,Num,6
+2018,other_miscellaneous_n,N20950,Number of returns with Other non-limited miscellaneous deductions,Schedule A:16,Num,6
+2018,other_miscellaneous,A20950,Other non-limited miscellaneous deductions amount,Schedule A:16,Num,6
+2018,qual_bus_income_deduction_n,N04475,Number of returns with Qualified business income deduction,1040:09:00,Num,6
+2018,qual_bus_income_deduction,A04475,Qualified business income deduction,1040:09:00,Num,6
+2018,taxable_inc_n,N04800,Number of returns with taxable income,1040:10:00,Num,6
+2018,taxable_inc,A04800,Taxable income amount,1040:10:00,Num,6
+2018,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:11:00,Num,6
+2018,taxable_inc_before,A05800,Income tax before credits amount,1040:11:00,Num,6
+2018,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,Schedule 2:45,Num,6
+2018,alternative_minimum,A09600,Alternative minimum tax amount,Schedule 2:45,Num,6
+2018,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,Schedule 2:46,Num,6
+2018,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,Schedule 2:46,Num,6
+2018,tax_credits_n,N07100,Number of returns with total tax credits,1040:12:00,Num,6
+2018,tax_credits,A07100,Total tax credits amount,1040:12:00,Num,6
+2018,foreign_tax_n,N07300,Number of returns with foreign tax credit,Schedule 3:48,Num,6
+2018,foreign_tax,A07300,Foreign tax credit amount,Schedule 3:48,Num,6
+2018,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,Schedule 3:49,Num,6
+2018,child_dependent_credit,A07180,Child and dependent care credit amount,Schedule 3:49,Num,6
+2018,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,Schedule 3:50,Num,6
+2018,education_nonrefund,A07230,Nonrefundable education credit amount,Schedule 3:50,Num,6
+2018,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,Schedule 3:51,Num,6
+2018,retire_savings,A07240,Retirement savings contribution credit amount,Schedule 3:51,Num,6
+2018,child_tax_n,N07225,Number of returns with child and other dependent credit,1040:12a,Num,6
+2018,child_tax,A07225,Child and other dependent credit amount,1040:12a,Num,6
+2018,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,Schedule 3:53,Num,6
+2018,res_energy_credit,A07260,Residential energy tax credit amount,Schedule 3:53,Num,6
+2018,self_employ_tax_n,N09400,Number of returns with self-employment tax,Schedule 4:57,Num,6
+2018,self_employ_tax,A09400,Self-employment tax amount,Schedule 4:57,Num,6
+2018,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2018,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2018,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2018,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2018,health_care_n,N09750,Number of returns with health care individual responsibility payment,Schedule 4:61,Num,6
+2018,health_care,A09750,Health care individual responsibility payment amount,Schedule 4:61,Num,6
+2018,tax_payments_n,N10600,Number of returns with total tax payments,1040:18:00,Num,6
+2018,tax_payments,A10600,Total tax payments amount,1040:18:00,Num,6
+2018,earned_income_n,N59660,Number of returns with earned income credit,1040:17a,Num,6
+2018,earned_income,A59660,Earned income credit amount [10],1040:17a,Num,6
+2018,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:17a,Num,6
+2018,excess_earned_income,A59720,Excess earned income credit (refundable) amount [11],1040:17a,Num,6
+2018,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:17b,Num,6
+2018,additional_child_credit,A11070,Additional child tax credit amount,1040:17b,Num,6
+2018,education_refund_n,N10960,Number of returns with refundable education credit,1040:17c,Num,6
+2018,education_refund,A10960,Refundable education credit amount,1040:17c,Num,6
+2018,net_premium_credit_n,N11560,Number of returns with net premium tax credit,Schedule 5:70,Num,6
+2018,net_premium_credit,A11560,Net premium tax credit amount,Schedule 5:70,Num,6
+2018,income_tax_n,N06500,Number of returns with income tax after credits,1040:13:00,Num,6
+2018,income_tax,A06500,Income tax after credits amount,1040:13:00,Num,6
+2018,tax_liability_n,N10300,Number of returns with tax liability,1040:15:00,Num,6
+2018,tax_liability,A10300,Total tax liability amount [12],1040:15:00,Num,6
+2018,medicare_n,N85530,Number of returns with additional Medicare tax,8959:24:00,Num,6
+2018,medicare,A85530,Additional Medicare tax amount,8959:24:00,Num,6
+2018,investment_income_n,N85300,Number of returns with net investment income tax,8960:17:00,Num,6
+2018,investment_income,A85300,Net investment income tax amount,8960:17:00,Num,6
+2018,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:22:00,Num,6
+2018,tax_due,A11901,Tax due at time of filing amount [13],1040:22:00,Num,6
+2018,overpayments_total_n,N11900,Number of returns with total overpayments,1040:19:00,Num,6
+2018,overpayment_total,A11900,Total overpayments amount,1040:19:00,Num,6
+2018,overpayments_n,N11902,Number of returns with overpayments refunded,1040:20a,Num,6
+2018,overpayments,A11902,Overpayments refunded amount [14],1040:20a,Num,6
+2018,credit_next_n,N12000,Number of returns with credit to next year’s estimated tax,1040:21:00,Num,6
+2018,credit_next,A12000,Credited to next year’s estimated tax amount,1040:21:00,Num,6
+2019,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2019,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+2 = $25,000 under $50,000
+3 = $50,000 under $75,000
+4 = $75,000 under $100,000
+5 = $100,000 under $200,000
+6 = $200,000 or more",Char,6
+2019,return,N1,Number of returns [3],,Num,6
+2019,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2019,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2019,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2019,elf,ELF,Number of electronically filed returns,,Num,6
+2019,cprep,CPREP,Number of computer prepared paper returns,,Num,6
+2019,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2019,dir_dep,DIR_DEP,Number of returns with direct deposit,,Num,6
+2019,exmpt,N2,Number of individuals [4],,Num,6
+2019,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [5],,Num,6
+2019,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [5],,Num,6
+2019,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [5],,Num,6
+2019,vita_eic,VITA_EIC,Number of volunteer prepared returns with Earned Income Credit [5],,Num,6
+2019,rac,RAC,Number of refund anticipation check returns [6],,Num,6
+2019,elderly,ELDERLY,Number of elderly returns [7],,Num,6
+2019,agi,A00100,Adjust gross income (AGI) [8],1040:8b,Num,6
+2019,total_income_n,N02650,Number of returns with total income,1040:7b,Num,6
+2019,total_income,A02650,Total income amount,1040:7b,Num,6
+2019,wages_n,N00200,Number of returns with salaries and wages,1040:1,Num,6
+2019,wages,A00200,Salaries and wages amount,1040:1,Num,6
+2019,interest_n,N00300,Number of returns with taxable interest,1040:2b,Num,6
+2019,interest,A00300,Taxable interest amount,1040:2b,Num,6
+2019,dividends_n,N00600,Number of returns with ordinary dividends,1040:3b,Num,6
+2019,dividends,A00600,Ordinary dividends amount,1040:3b,Num,6
+2019,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:3a,Num,6
+2019,dividends_qual,A00650,Qualified dividends amount [9],1040:3a,Num,6
+2019,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,Schedule 1:1,Num,6
+2019,state_inc_tax_refund,A00700,State and local income tax refunds amount,Schedule 1:1,Num,6
+2019,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),Schedule 1:3,Num,6
+2019,bus_net_income,A00900,Business or professional net income (less loss) amount,Schedule 1:3,Num,6
+2019,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:6,Num,6
+2019,capital_gain,A01000,Net capital gain (less loss) amount,1040:6,Num,6
+2019,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:4b,Num,6
+2019,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:4b,Num,6
+2019,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:4d,Num,6
+2019,pensions,A01700,Taxable pensions and annuities amount,1040:4d,Num,6
+2019,farm_n,SCHF,Number of farm returns,Schedule 1:6,Num,6
+2019,unemployment_n,N02300,Number of returns with unemployment compensation,Schedule 1:7,Num,6
+2019,unemployment,A02300,Unemployment compensation amount [10],Schedule 1:7,Num,6
+2019,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:5b,Num,6
+2019,social_security,A02500,Taxable Social Security benefits amount,1040:5b,Num,6
+2019,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2019,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2019,statutory_n,N02900,Number of returns with total statutory adjustments,Schedule 1:22,Num,6
+2019,statutory,A02900,Total statutory adjustments amount,Schedule 1:22,Num,6
+2019,educator_n,N03220,Number of returns with educator expenses,Schedule 1:10,Num,6
+2019,educator,A03220,Educator expenses amount,Schedule 1:10,Num,6
+2019,self_employ_n,N03300,Number of returns with Self-employed (Keogh) retirement plans,Schedule 1:15,Num,6
+2019,self_employ,A03300,Self-employed (Keogh) retirement plans amount,Schedule 1:15,Num,6
+2019,self_health_insurance_n,N03270,Number of returns with Self-employed health insurance deduction,Schedule 1:16,Num,6
+2019,self_health_insurance,A03270,Self-employed health insurance deduction amount,Schedule 1:16,Num,6
+2019,ira_payments_n,N03150,Number of returns with Individual retirement arrangement payments,Schedule 1:19,Num,6
+2019,ira_deduction,A03150,Individual retirement arrangement payments amount,Schedule 1:19,Num,6
+2019,student_loan_n,N03210,Number of returns with student loan interest deduction,Schedule 1:20,Num,6
+2019,student_loan,A03210,Student loan interest deduction amount,Schedule 1:20,Num,6
+2019,standard_deduction_n,N04450,Number of returns with total standard deduction,1040:9,Num,6
+2019,standard_deduction,A04450,Total standard deduction amount,1040:9,Num,6
+2019,basic_standard_n,N04100,Number of returns with basic standard deduction,1040:9,Num,6
+2019,basic_standard,A04100,Basic standard deduction amount,1040:9,Num,6
+2019,additional_standard_n,N04200,Number of returns with additional standard deduction,1040:9,Num,6
+2019,additional_standard,A04200,Additional standard deduction amount,1040:9,Num,6
+2019,itemized_n,N04470,Number of returns with itemized deductions,1040:9,Num,6
+2019,itemized,A04470,Total itemized deductions amount,1040:9,Num,6
+2019,itemized_agi,A00101,Amount of AGI for itemized returns,1040:8b,Num,6
+2019,medical_dental_n,N17000,Number of returns with Total medical and dental expense deduction,Schedule A:4,Num,6
+2019,medical_dental,A17000,Total medical and dental expense deduction amount,Schedule A:4,Num,6
+2019,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2019,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2019,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5a,Num,6
+2019,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5a,Num,6
+2019,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:5b,Num,6
+2019,real_estate_tax,A18500,Real estate taxes amount,Schedule A:5b,Num,6
+2019,personal_prop_tax_n,N18800,Number of returns with Personal property taxes,Schedule A:5c,Num,6
+2019,personal_prop_tax,A18800,Personal property taxes amount,Schedule A:5c,Num,6
+2019,limited_state_local_tax_n,N18460,Number of returns with Limited state and local taxes,Schedule A:5e,Num,6
+2019,limited_state_local_tax,A18460,Limited state and local taxes,Schedule A:5e,Num,6
+2019,taxes_n,N18300,Number of returns with Total taxes paid,Schedule A:7,Num,6
+2019,taxes,A18300,Total taxes paid amount,Schedule A:7,Num,6
+2019,mortgage_interest_n,N19300,Number of returns with Home mortgage interest paid,Schedule A:8a,Num,6
+2019,mortgage_interest,A19300,Home mortgage interest paid amount,Schedule A:8a,Num,6
+2019,mortgage_seller_n,N19500,Number of returns with Home mortgage from personal seller,Schedule A:8b,Num,6
+2019,mortgage_seller,A19500,Home mortgage from personal seller amount,Schedule A:8b,Num,6
+2019,deductible_n,N19530,Number of returns with Deductible points,Schedule A:8c,Num,6
+2019,deductible,A19530,Deductible points amount,Schedule A:8c,Num,6
+2019,investment_interest_n,N19570,Number of returns with Investment interest paid,Schedule A:9,Num,6
+2019,investment_interest,A19570,Investment interest paid amount,Schedule A:9,Num,6
+2019,contributions_n,N19700,Number of returns with Total charitable contributions,Schedule A:14,Num,6
+2019,contributions,A19700,Total charitable contributions amount,Schedule A:14,Num,6
+2019,other_miscellaneous_n,N20950,Number of returns with Other non-limited miscellaneous deductions,Schedule A:16,Num,6
+2019,other_miscellaneous,A20950,Other non-limited miscellaneous deductions amount,Schedule A:16,Num,6
+2019,qual_bus_income_deduction_n,N04475,Number of returns with Qualified business income deduction,1040:10:00,Num,6
+2019,qual_bus_income_deduction,A04475,Qualified business income deduction,1040:10:00,Num,6
+2019,taxable_inc_n,N04800,Number of returns with taxable income,1040:11b,Num,6
+2019,taxable_inc,A04800,Taxable income amount,1040:11b,Num,6
+2019,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:12b,Num,6
+2019,taxable_inc_before,A05800,Income tax before credits amount,1040:12b,Num,6
+2019,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,Schedule 2:1,Num,6
+2019,alternative_minimum,A09600,Alternative minimum tax amount,Schedule 2:1,Num,6
+2019,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,Schedule 2:2,Num,6
+2019,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,Schedule 2:2,Num,6
+2019,tax_credits_n,N07100,Number of returns with total tax credits [11],1040:13b,Num,6
+2019,tax_credits,A07100,Total tax credits amount,1040:13b,Num,6
+2019,foreign_tax_n,N07300,Number of returns with foreign tax credit,Schedule 3:1,Num,6
+2019,foreign_tax,A07300,Foreign tax credit amount,Schedule 3:1,Num,6
+2019,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,Schedule 3:2,Num,6
+2019,child_dependent_credit,A07180,Child and dependent care credit amount,Schedule 3:2,Num,6
+2019,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,Schedule 3:3,Num,6
+2019,education_nonrefund,A07230,Nonrefundable education credit amount,Schedule 3:3,Num,6
+2019,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,Schedule 3:4,Num,6
+2019,retire_savings,A07240,Retirement savings contribution credit amount,Schedule 3:4,Num,6
+2019,child_tax_n,N07225,Number of returns with child and other dependent credit,1040:13a,Num,6
+2019,child_tax,A07225,Child and other dependent credit amount,1040:13a,Num,6
+2019,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,Schedule 3:5,Num,6
+2019,res_energy_credit,A07260,Residential energy tax credit amount,Schedule 3:5,Num,6
+2019,self_employ_tax_n,N09400,Number of returns with self-employment tax,Schedule 2:4,Num,6
+2019,self_employ_tax,A09400,Self-employment tax amount,Schedule 2:4,Num,6
+2019,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2019,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2019,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2019,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2019,tax_payments_n,N10600,Number of returns with total tax payments,1040:19:00,Num,6
+2019,tax_payments,A10600,Total tax payments amount,1040:19:00,Num,6
+2019,earned_income_n,N59660,Number of returns with earned income credit,1040:18a,Num,6
+2019,earned_income,A59660,Earned income credit amount [12],1040:18a,Num,6
+2019,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:18a,Num,6
+2019,excess_earned_income,A59720,Excess earned income credit (refundable) amount [13],1040:18a,Num,6
+2019,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:18b,Num,6
+2019,additional_child_credit,A11070,Additional child tax credit amount,1040:18b,Num,6
+2019,education_refund_n,N10960,Number of returns with refundable education credit [14],1040:18c,Num,6
+2019,education_refund,A10960,Refundable education credit amount,1040:18c,Num,6
+2019,net_premium_credit_n,N11560,Number of returns with net premium tax credit,Schedule 3:9,Num,6
+2019,net_premium_credit,A11560,Net premium tax credit amount,Schedule 3:9,Num,6
+2019,income_tax_n,N06500,Number of returns with income tax after credits,1040:14:00,Num,6
+2019,income_tax,A06500,Income tax after credits amount,1040:14:00,Num,6
+2019,tax_liability_n,N10300,Number of returns with tax liability,1040:16:00,Num,6
+2019,tax_liability,A10300,Total tax liability amount [15],1040:16:00,Num,6
+2019,medicare_n,N85530,Number of returns with additional Medicare tax,8959:24:00,Num,6
+2019,medicare,A85530,Additional Medicare tax amount,8959:24:00,Num,6
+2019,investment_income_n,N85300,Number of returns with net investment income tax,8960:17:00,Num,6
+2019,investment_income,A85300,Net investment income tax amount,8960:17:00,Num,6
+2019,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:23:00,Num,6
+2019,tax_due,A11901,Tax due at time of filing amount [16],1040:23:00,Num,6
+2019,overpayments_total_n,N11900,Number of returns with total overpayments,1040:20:00,Num,6
+2019,overpayment_total,A11900,Total overpayments amount,1040:20:00,Num,6
+2019,overpayments_n,N11902,Number of returns with overpayments refunded,1040:21a,Num,6
+2019,overpayments,A11902,Overpayments refunded amount [17],1040:21a,Num,6
+2019,credit_next_n,N12000,Number of returns with credit to next year’s estimated tax,1040:22:00,Num,6
+2019,credit_next,A12000,Credited to next year’s estimated tax amount,1040:22:00,Num,6
+2020,zipcode,ZIPCODE,5-digit Zip code,,Char,6
+2020,agi_stub,AGI_STUB,Size of adjusted gross income,"1 = $1 under $25,000
+ 2 = $25,000 under $50,000
+ 3 = $50,000 under $75,000
+ 4 = $75,000 under $100,000
+ 5 = $100,000 under $200,000
+ 6 = $200,000 or more",Char,6
+2020,return,N1,Number of returns [3],,Num,6
+2020,return_single,MARS1,Number of single returns,Filing status is single,Num,6
+2020,return_joint,MARS2,Number of joint returns,Filing status is married filing jointly,Num,6
+2020,return_head,MARS4,Number of head of household returns,Filing status is head of household,Num,6
+2020,elf,ELF,Number of electronically filed returns,,Num,6
+2020,cprep,CPREP,Number of computer prepared paper returns,,Num,6
+2020,return_paid,PREP,Number of returns with paid preparer's signature,,Num,6
+2020,dir_dep,DIR_DEP,Number of returns with direct deposit,,Num,6
+2020,virtual_currency,VRTCRIND,Number of returns with virtual currency indicator,,Num,6
+2020,exmpt,N2,Number of individuals [4],,Num,6
+2020,total_vita,TOTAL_VITA,Total number of volunteer prepared returns [5],,Num,6
+2020,vita,VITA,Number of volunteer income tax assistance (VITA) prepared returns [5],,Num,6
+2020,tce,TCE,Number of tax counseling for the elderly (TCE) prepared returns [5],,Num,6
+2020,vita_eic,VITA_EIC,Number of volunteer prepared returns with Earned Income Credit [5],,Num,6
+2020,rac,RAC,Number of refund anticipation check returns [6],,Num,6
+2020,elderly,ELDERLY,Number of elderly returns [7],,Num,6
+2020,agi,A00100,Adjust gross income (AGI) [8],1040:11:00,Num,6
+2020,total_income_n,N02650,Number of returns with total income,1040:9,Num,6
+2020,total_income,A02650,Total income amount,1040:9,Num,6
+2020,wages_n,N00200,Number of returns with salaries and wages,1040:1,Num,6
+2020,wages,A00200,Salaries and wages amount,1040:1,Num,6
+2020,interest_n,N00300,Number of returns with taxable interest,1040:2b,Num,6
+2020,interest,A00300,Taxable interest amount,1040:2b,Num,6
+2020,dividends_n,N00600,Number of returns with ordinary dividends,1040:3b,Num,6
+2020,dividends,A00600,Ordinary dividends amount,1040:3b,Num,6
+2020,dividends_qual_n,N00650,Number of returns with qualified dividends,1040:3a,Num,6
+2020,dividends_qual,A00650,Qualified dividends amount [9],1040:3a,Num,6
+2020,state_inc_tax_refund_n,N00700,Number of returns with state and local income tax refunds,Schedule 1:1,Num,6
+2020,state_inc_tax_refund,A00700,State and local income tax refunds amount,Schedule 1:1,Num,6
+2020,bus_net_income_n,N00900,Number of returns with business or professional net income (less loss),Schedule 1:3,Num,6
+2020,bus_net_income,A00900,Business or professional net income (less loss) amount,Schedule 1:3,Num,6
+2020,capital_gain_n,N01000,Number of returns with net capital gain (less loss),1040:7,Num,6
+2020,capital_gain,A01000,Net capital gain (less loss) amount,1040:7,Num,6
+2020,ira_n,N01400,Number of returns with taxable individual retirement arrangements distributions,1040:4b,Num,6
+2020,ira,A01400,Taxable individual retirement arrangements distributions amount,1040:4b,Num,6
+2020,pensions_n,N01700,Number of returns with taxable pensions and annuities,1040:5b,Num,6
+2020,pensions,A01700,Taxable pensions and annuities amount,1040:5b,Num,6
+2020,farm_n,SCHF,Number of farm returns,Schedule 1:6,Num,6
+2020,unemployment_n,N02300,Number of returns with unemployment compensation,Schedule 1:7,Num,6
+2020,unemployment,A02300,Unemployment compensation amount [10],Schedule 1:7,Num,6
+2020,social_security_n,N02500,Number of returns with taxable Social Security benefits,1040:6b,Num,6
+2020,social_security,A02500,Taxable Social Security benefits amount,1040:6b,Num,6
+2020,s_corp_n,N26270,Number of returns with partnership/S-corp net income (less loss),Schedule E:32,Num,6
+2020,s_corp,A26270,Partnership/S-corp net income (less loss) amount,Schedule E:32,Num,6
+2020,statutory_n,N02900,Number of returns with total statutory adjustments,Schedule 1:22,Num,6
+2020,statutory,A02900,Total statutory adjustments amount,Schedule 1:22,Num,6
+2020,educator_n,N03220,Number of returns with educator expenses,Schedule 1:10,Num,6
+2020,educator,A03220,Educator expenses amount,Schedule 1:10,Num,6
+2020,self_employ_n,N03300,Number of returns with Self-employed (Keogh) retirement plans,Schedule 1:15,Num,6
+2020,self_employ,A03300,Self-employed (Keogh) retirement plans amount,Schedule 1:15,Num,6
+2020,self_health_insurance_n,N03270,Number of returns with Self-employed health insurance deduction,Schedule 1:16,Num,6
+2020,self_health_insurance,A03270,Self-employed health insurance deduction amount,Schedule 1:16,Num,6
+2020,ira_payments_n,N03150,Number of returns with Individual retirement arrangement payments,Schedule 1:19,Num,6
+2020,ira_deduction,A03150,Individual retirement arrangement payments amount,Schedule 1:19,Num,6
+2020,student_loan_n,N03210,Number of returns with student loan interest deduction,Schedule 1:20,Num,6
+2020,student_loan,A03210,Student loan interest deduction amount,Schedule 1:20,Num,6
+2020,charitable_standard_n,N02910,Number of returns with charitable contributions if took standard deduction,1040:10b,Num,6
+2020,charitable_standard,A02910,Charitable contributions if took standard deduction,1040:10b,Num,6
+2020,standard_deduction_n,N04450,Number of returns with total standard deduction,1040:12:00,Num,6
+2020,standard_deduction,A04450,Total standard deduction amount,1040:12:00,Num,6
+2020,basic_standard_n,N04100,Number of returns with basic standard deduction,1040:12:00,Num,6
+2020,basic_standard,A04100,Basic standard deduction amount,1040:12:00,Num,6
+2020,additional_standard_n,N04200,Number of returns with additional standard deduction,1040:12:00,Num,6
+2020,additional_standard,A04200,Additional standard deduction amount,1040:12:00,Num,6
+2020,itemized_n,N04470,Number of returns with itemized deductions,1040:12:00,Num,6
+2020,itemized,A04470,Total itemized deductions amount,1040:12:00,Num,6
+2020,itemized_agi,A00101,Amount of AGI for itemized returns,1040:11:00,Num,6
+2020,medical_dental_n,N17000,Number of returns with Total medical and dental expense deduction,Schedule A:4,Num,6
+2020,medical_dental,A17000,Total medical and dental expense deduction amount,Schedule A:4,Num,6
+2020,state_inc_tax_n,N18425,Number of returns with State and local income taxes,Schedule A:5a,Num,6
+2020,state_inc_tax,A18425,State and local income taxes amount,Schedule A:5a,Num,6
+2020,state_general_tax_n,N18450,Number of returns with State and local general sales tax,Schedule A:5a,Num,6
+2020,state_general_tax,A18450,State and local general sales tax amount,Schedule A:5a,Num,6
+2020,real_estate_tax_n,N18500,Number of returns with real estate taxes,Schedule A:5b,Num,6
+2020,real_estate_tax,A18500,Real estate taxes amount,Schedule A:5b,Num,6
+2020,personal_prop_tax_n,N18800,Number of returns with Personal property taxes,Schedule A:5c,Num,6
+2020,personal_prop_tax,A18800,Personal property taxes amount,Schedule A:5c,Num,6
+2020,limited_state_local_tax_n,N18460,Number of returns with Limited state and local taxes,Schedule A:5e,Num,6
+2020,limited_state_local_tax,A18460,Limited state and local taxes,Schedule A:5e,Num,6
+2020,taxes_n,N18300,Number of returns with Total taxes paid,Schedule A:7,Num,6
+2020,taxes,A18300,Total taxes paid amount,Schedule A:7,Num,6
+2020,mortgage_interest_n,N19300,Number of returns with Home mortgage interest paid,Schedule A:8a,Num,6
+2020,mortgage_interest,A19300,Home mortgage interest paid amount,Schedule A:8a,Num,6
+2020,mortgage_seller_n,N19500,Number of returns with Home mortgage from personal seller,Schedule A:8b,Num,6
+2020,mortgage_seller,A19500,Home mortgage from personal seller amount,Schedule A:8b,Num,6
+2020,deductible_n,N19530,Number of returns with Deductible points,Schedule A:8c,Num,6
+2020,deductible,A19530,Deductible points amount,Schedule A:8c,Num,6
+2020,qual_mortgage_n,N19550,Number of returns with Qualified mortgage insurance premiums,Schedule A:8d,Num,6
+2020,qual_mortgage,A19550,Qualified mortgage insurance premiums amount,Schedule A:8d,Num,6
+2020,investment_interest_n,N19570,Number of returns with Investment interest paid,Schedule A:9,Num,6
+2020,investment_interest,A19570,Investment interest paid amount,Schedule A:9,Num,6
+2020,contributions_n,N19700,Number of returns with Total charitable contributions,Schedule A:14,Num,6
+2020,contributions,A19700,Total charitable contributions amount,Schedule A:14,Num,6
+2020,other_miscellaneous_n,N20950,Number of returns with Other non-limited miscellaneous deductions,Schedule A:16,Num,6
+2020,other_miscellaneous,A20950,Other non-limited miscellaneous deductions amount,Schedule A:16,Num,6
+2020,qual_bus_income_deduction_n,N04475,Number of returns with Qualified business income deduction,1040:13:00,Num,6
+2020,qual_bus_income_deduction,A04475,Qualified business income deduction,1040:13:00,Num,6
+2020,taxable_inc_n,N04800,Number of returns with taxable income,1040:15:00,Num,6
+2020,taxable_inc,A04800,Taxable income amount,1040:15:00,Num,6
+2020,taxable_inc_before_n,N05800,Number of returns with income tax before credits,1040:16:00,Num,6
+2020,taxable_inc_before,A05800,Income tax before credits amount,1040:16:00,Num,6
+2020,alternative_minimum_n,N09600,Number of returns with alternative minimum tax,Schedule 2:1,Num,6
+2020,alternative_minimum,A09600,Alternative minimum tax amount,Schedule 2:1,Num,6
+2020,excess_premium_credit_n,N05780,Number of returns with excess advance premium tax credit repayment,Schedule 2:2,Num,6
+2020,excess_premium_credit,A05780,Excess advance premium tax credit repayment amount,Schedule 2:2,Num,6
+2020,tax_credits_n,N07100,Number of returns with total tax credits [11],1040:21:00,Num,6
+2020,tax_credits,A07100,Total tax credits amount,1040:21:00,Num,6
+2020,foreign_tax_n,N07300,Number of returns with foreign tax credit,Schedule 3:1,Num,6
+2020,foreign_tax,A07300,Foreign tax credit amount,Schedule 3:1,Num,6
+2020,child_dependent_credit_n,N07180,Number of returns with child and dependent care credit,Schedule 3:2,Num,6
+2020,child_dependent_credit,A07180,Child and dependent care credit amount,Schedule 3:2,Num,6
+2020,education_nonrefund_n,N07230,Number of returns with nonrefundable education credit,Schedule 3:3,Num,6
+2020,education_nonrefund,A07230,Nonrefundable education credit amount,Schedule 3:3,Num,6
+2020,retire_savings_n,N07240,Number of returns with retirement savings contribution credit,Schedule 3:4,Num,6
+2020,retire_savings,A07240,Retirement savings contribution credit amount,Schedule 3:4,Num,6
+2020,child_tax_n,N07225,Number of returns with child and other dependent credit,1040:19:00,Num,6
+2020,child_tax,A07225,Child and other dependent credit amount,1040:19:00,Num,6
+2020,res_energy_credit_n,N07260,Number of returns with residential energy tax credit,Schedule 3:5,Num,6
+2020,res_energy_credit,A07260,Residential energy tax credit amount,Schedule 3:5,Num,6
+2020,self_employ_tax_n,N09400,Number of returns with self-employment tax,Schedule 2:4,Num,6
+2020,self_employ_tax,A09400,Self-employment tax amount,Schedule 2:4,Num,6
+2020,premium_credit_n,N85770,Number of returns with total premium tax credit,8962:24:00,Num,6
+2020,premium_credit,A85770,Total premium tax credit amount,8962:24:00,Num,6
+2020,advance_premium_credit_n,N85775,Number of returns with advance premium tax credit,8962:25:00,Num,6
+2020,advance_premium_credit,A85775,Advance premium tax credit amount,8962:25:00,Num,6
+2020,tax_payments_n,N10600,Number of returns with total tax payments,1040:33:00,Num,6
+2020,tax_payments,A10600,Total tax payments amount,1040:33:00,Num,6
+2020,earned_income_n,N59660,Number of returns with earned income credit,1040:27:00,Num,6
+2020,earned_income,A59660,Earned income credit amount [12],1040:27:00,Num,6
+2020,excess_earned_income_n,N59720,Number of returns with excess earned income credit,1040:27:00,Num,6
+2020,excess_earned_income,A59720,Excess earned income credit (refundable) amount [13],1040:27:00,Num,6
+2020,additional_child_credit_n,N11070,Number of returns with additional child tax credit,1040:28:00,Num,6
+2020,additional_child_credit,A11070,Additional child tax credit amount,1040:28:00,Num,6
+2020,education_refund_n,N10960,Number of returns with refundable education credit [14],1040:29:00,Num,6
+2020,education_refund,A10960,Refundable education credit amount,1040:29:00,Num,6
+2020,net_premium_credit_n,N11560,Number of returns with net premium tax credit,Schedule 3:8,Num,6
+2020,net_premium_credit,A11560,Net premium tax credit amount,Schedule 3:8,Num,6
+2020,qual_sick_n,N11450,Number of returns with qualified sick and family leave credit,Schedule 3:12b,Num,6
+2020,qual_sick,A11450,Qualified sick and family leave credit amount,Schedule 3:12b,Num,6
+2020,recovery_rebate_n,N10970,Number of returns with recovery rebate credit,1040:30:00,Num,6
+2020,recovery_rebate,A10970,Recovery rebate credit amount [15],1040:30:00,Num,6
+2020,econ_impact_1_n,N10971,Number of returns with economic impact payment first round,,Num,6
+2020,econ_impact_1,A10971,"Economic impact payment first round amount [16, 17]",,Num,6
+2020,econ_impact_2_n,N10973,Number of returns with economic impact payment second round,,Num,6
+2020,econ_impact_2,A10973,"Economic impact payment second round amount [17, 18]",,Num,6
+2020,income_tax_n,N06500,Number of returns with income tax after credits,1040:22:00,Num,6
+2020,income_tax,A06500,Income tax after credits amount,1040:22:00,Num,6
+2020,tax_liability_n,N10300,Number of returns with tax liability,1040:24:00,Num,6
+2020,tax_liability,A10300,Total tax liability amount [19],1040:24:00,Num,6
+2020,medicare_n,N85530,Number of returns with additional Medicare tax,8959:24:00,Num,6
+2020,medicare,A85530,Additional Medicare tax amount,8959:24:00,Num,6
+2020,investment_income_n,N85300,Number of returns with net investment income tax,8960:17:00,Num,6
+2020,investment_income,A85300,Net investment income tax amount,8960:17:00,Num,6
+2020,tax_due_n,N11901,Number of returns with tax due at time of filing,1040:37:00,Num,6
+2020,tax_due,A11901,Tax due at time of filing amount [20],1040:37:00,Num,6
+2020,overpayments_total_n,N11900,Number of returns with total overpayments,1040:34:00,Num,6
+2020,overpayment_total,A11900,Total overpayments amount,1040:34:00,Num,6
+2020,overpayments_n,N11902,Number of returns with overpayments refunded,1040:35a,Num,6
+2020,overpayments,A11902,Overpayments refunded amount [21],1040:35a,Num,6
+2020,credit_next_n,N12000,Number of returns with credit to next year’s estimated tax,1040:36:00,Num,6
+2020,credit_next,A12000,Credited to next year’s estimated tax amount,1040:36:00,Num,6
