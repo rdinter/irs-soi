@@ -216,7 +216,7 @@ write_csv(irs_agi_create,
 # Expand gitignore
 old_ignore <- read.table(paste0(str_remove(local_dir, "/raw"), "/.gitignore"))
 new_ignore <- old_ignore[!grepl("irs_zipcode_agi_xls.csv|irs_zipcode_raw.csv",
-                                old_ignore),]
+                                old_ignore[,1]),]
 up_ignore  <- append(new_ignore, c("irs_zipcode_agi_xls.csv",
                                    "irs_zipcode_raw.csv"))
 write.table(up_ignore, paste0(str_remove(local_dir, "/raw"), "/.gitignore"),
