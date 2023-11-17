@@ -12,20 +12,26 @@ library(tidyverse)
 # ----- start -------------------------------------------------------------
 
 # Create a directory for the data, ignore for GitHub
-localDir <- "0-data/IRS"
-county_source <- paste0(localDir, "/county/raw")
-zip_source <- paste0(localDir, "/zipcode/raw")
-if (!file.exists(localDir)) dir.create(localDir, recursive = T)
+local_dir <- "0-data/IRS"
+county_source <- paste0(local_dir, "/county/raw")
+zip_source <- paste0(local_dir, "/zipcode/raw")
+if (!file.exists(local_dir)) dir.create(local_dir, recursive = T)
 if (!file.exists(county_source)) dir.create(county_source, recursive = T)
 if (!file.exists(zip_source)) dir.create(zip_source, recursive = T)
 
-# ignore raw folders
-filecon <- file(paste0(str_remove(county_source, "/raw"), "/.gitignore"))
-writeLines("raw", filecon)
-close(filecon)
-filecon <- file(paste0(str_remove(zip_source, "/raw"), "/.gitignore"))
-writeLines("raw", filecon)
-close(filecon)
+# Expand gitignore
+county_ignore <- paste0(str_remove(local_dir, "/raw"), "/.gitignore")
+if (!file.exists(county_ignore)) write.table("raw",
+                                             file = county_ignore,
+                                             quote = FALSE, sep = "\n",
+                                             col.names = FALSE,
+                                             row.names = FALSE)
+zip_ignore <- paste0(str_remove(local_dir, "/raw"), "/.gitignore")
+if (!file.exists(zip_ignore)) write.table("raw",
+                                          file = zip_ignore,
+                                          quote = FALSE, sep = "\n",
+                                          col.names = FALSE, row.names = FALSE)
+
 
 
 url    <- "http://www.irs.gov/pub/irs-soi/"
