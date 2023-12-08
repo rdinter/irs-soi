@@ -148,7 +148,8 @@ irs_data <- bind_rows(irs_all) |>
          zipcode = ifelse(zipcode %in% c("0", "0.0", "TOTAL", NA_character_),
                           state, zipcode)) |> 
   # Left pad the ZIP codes
-  mutate(zipcode = str_pad(zipcode, 5, side = "left", pad = "0"))
+  mutate(zipcode = ifelse(zipcode == state, zipcode,
+                          str_pad(zipcode, 5, side = "left", pad = "0")))
 
 agi_class_cross <- c("Under $10,000" = "<25k",
                      "$10,000 under $25,000" = "<25k",
