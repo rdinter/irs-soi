@@ -59,11 +59,6 @@ irs_dot_com <- zipcode_dot_com |>
   mutate(lat = ifelse(is.na(lat_zcta), lat_zcdc, lat_zcta),
          lon = ifelse(is.na(lon_zcta), lon_zcdc, lon_zcta))
 
-
-# ---- missing ------------------------------------------------------------
-
-# Need to determine a method for filling in the other missing zip codes...
-
 # ---- write --------------------------------------------------------------
 
 irs_dot_com |> 
