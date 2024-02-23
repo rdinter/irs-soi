@@ -38,15 +38,18 @@ zctas <- read_csv("0-data/ZCTA/nber_zcta_centroids.csv") |>
 irs_z <- read_csv("0-data/IRS/zipcode/irs_zipcode_no_agi_xls.csv") |> 
   mutate(st_fips = st_cross[st_abbr],
          uzip = paste0(st_fips, zipcode))
-zipcode_dot_com <- read_csv("0-data/ZCTA/zip_code_database.csv")
+zipcode_dot_com <- read_csv("0-data/ZCTA/zip_code_database.csv") |> 
+  mutate(latitude = ifelse(near(latitude, 0), NA, latitude),
+         longitude = ifelse(near(longitude, 0), NA, longitude))
 
 # ---- join ---------------------------------------------------------------
 
 # First fill in all the ZCTAs
 filled_zctas <- zctas |> 
-  complete(year = 1990:2022, uzip) |> 
-  group_by(uzip) |> 
-  fill(st_fips, zcta5, lon, lat, .direction = "downup")
+  complete(year = 1990:2022, zcta5) |> 
+  group_by(zcta5) |> 
+  fill(zcta5, lon, lat, .direction = "downup") |> 
+  select(-uzip, -st_fips, zipcode = zcta5)
 
 irs_zcta <- left_join(irs_z, filled_zctas) |> 
   rename(lon_zcta = lon, lat_zcta = lat)

@@ -70,5 +70,7 @@ map_csv <- map(files, function(x) {
 
 # ---- write --------------------------------------------------------------
 
-
-write_csv(map_csv, paste0(local_dir, "/nber_zcta_centroids.csv"))
+# Correct for the dumbdumb longitudes in 1990
+map_csv |> 
+  mutate(lon = ifelse(year == 1990, -lon, lon)) |> 
+  write_csv(paste0(local_dir, "/nber_zcta_centroids.csv"))
