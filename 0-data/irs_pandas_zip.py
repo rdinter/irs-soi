@@ -40,7 +40,7 @@ directory = "0-data/IRS/zipcode/raw"
 zip_files = [os.path.abspath(os.path.join(directory, p)) for p in os.listdir(directory) if p.endswith("zip")]
 zip_files.sort()
 
-data_dict = pd.read_csv("0-data/irs zipcode data description - all.csv")
+data_dict = pd.read_csv("0-data/internal/irs zipcode data description - all.csv")
 skip_dict = data_dict.groupby(['year', 'skip']).size().reset_index(name='Freq')
 
 # zip_file = zip_files[3]

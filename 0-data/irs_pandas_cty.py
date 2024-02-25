@@ -76,7 +76,7 @@ zip_files.sort()
 
 # zip_file = zip_files[1]
 
-data_dict = pd.read_csv("0-data/irs_county_data_description.csv")
+data_dict = pd.read_csv("0-data/internal/irs_county_data_description.csv")
 data_dict['variable'] = data_dict['variable'].str.lower()
 skip_dict = data_dict.groupby(['year', 'skip']).size().reset_index(name='Freq')
 

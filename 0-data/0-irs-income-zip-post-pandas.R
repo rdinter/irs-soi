@@ -16,7 +16,7 @@ if (!file.exists(data_source)) dir.create(data_source)
 # ---- vars ----------------------------------------------------------------
 
 
-vars_dict <- read_csv("0-data/irs zipcode data description - all.csv")
+vars_dict <- read_csv("0-data/internal/irs zipcode data description - all.csv")
 
 pivot_agi <- c("Under $10,000",
                "10,000 under $25,000",
