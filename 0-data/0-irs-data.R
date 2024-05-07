@@ -74,7 +74,7 @@ mig_urls  <- c(urls1, urls2, urls3)
 mig_files <- c(files1, files2, files3)
 
 
-map2(mig_urls, mig_files, function(urls, files){
+map2(mig_urls, mig_files, function(urls, files) {
   if (!file.exists(files)) curl_download(urls, files)
 })
 
@@ -111,7 +111,7 @@ urls2   <- paste0(url, years2, "countydata.zip")
 files2  <- paste(county_source,
                  paste0("county_income", years2, ".zip"), sep = "/")
 
-years3 <- 2013:2020
+years3 <- 2013:2021
 urls3  <- paste0(url, "county", years3, ".zip")
 files3 <- paste(county_source,
                 paste0("county_income", years3, ".zip"), sep = "/")
@@ -121,7 +121,7 @@ cty_inc_urls  <- c(urls1, urls2, urls3)
 cty_inc_files <- c(files1, files2, files3)
 
 
-map2(cty_inc_urls, cty_inc_files, function(urls, files){
+map2(cty_inc_urls, cty_inc_files, function(urls, files) {
   if (!file.exists(files)) curl_download(urls, files)
 })
 
@@ -139,14 +139,14 @@ map2(cty_inc_urls, cty_inc_files, function(urls, files){
 # https://www.irs.gov/pub/irs-soi/zipcode2013.zip
 # https://www.irs.gov/pub/irs-soi/zipcode2014.zip
 
-zip_inc_years  <- c(1998, 2001, 2002, 2004:2020)
+zip_inc_years  <- c(1998, 2001, 2002, 2004:2021)
 zip_inc_urls   <- ifelse(zip_inc_years < 2013,
                          paste0(url, zip_inc_years, "zipcode.zip"),
                          paste0(url, "zipcode", zip_inc_years, ".zip"))
 zip_inc_files  <- paste0(zip_source,
                          paste0("/zip_income", zip_inc_years, ".zip"))
 
-map2(zip_inc_urls, zip_inc_files, function(urls, files){
+map2(zip_inc_urls, zip_inc_files, function(urls, files) {
   if (!file.exists(files)) curl_download(urls, files)
 })
 
