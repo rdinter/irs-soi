@@ -7,6 +7,10 @@ def irs_walker(zip_file):
         
         print(zip_file)
         csv_file_name = os.path.splitext(zip_file)[0]+'.csv'
+        print(csv_file_name)
+        
+        # if (os.path.exists(csv_file_name)) return None
+        
         year = int(zip_file[-8:-4])
         skip_rows = skip_dict[skip_dict["year"] == year]["skip"]
         col_names = data_dict[data_dict["year"] == year]["r_var"]
@@ -38,9 +42,9 @@ def read_irs(x, z, skip_rows, col_names):
 
 directory = "0-data/IRS/zipcode/raw"
 zip_files = [os.path.abspath(os.path.join(directory, p)) for p in os.listdir(directory) if p.endswith("zip")]
-zip_files.sort()
+zip_files.sort(reverse = True)
 
-data_dict = pd.read_csv("0-data/internal/irs zipcode data description - all.csv")
+data_dict = pd.read_csv("0-data/internal/updated_irs_zipcode_vars.csv")
 skip_dict = data_dict.groupby(['year', 'skip']).size().reset_index(name='Freq')
 
 # zip_file = zip_files[3]
