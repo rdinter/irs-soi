@@ -24,7 +24,7 @@ filecon <- file(paste0(duck_dir, "/.gitignore"))
 writeLines("*duckdb*", filecon)
 close(filecon)
 
-# ---- vars ----------------------------------------------------------------
+# ---- zip-vars ------------------------------------------------------------
 
 vars_dict <- read_csv("0-data/internal/updated_irs_zipcode_vars.csv")
 
@@ -78,7 +78,7 @@ state_cross <- c(str_to_upper(state.name),
                  "UNITED STATES")
 names(state_cross) <- c(state.abb, "DC", "US")
 
-# ---- read ---------------------------------------------------------------
+# ---- zip-read -----------------------------------------------------------
 
 num_var <- filter(vars_dict, var_type == "Num")
 
@@ -247,6 +247,10 @@ state_sql <- str_glue("CREATE OR REPLACE VIEW irs_soi_states ",
                       "AS {irs_soi_states_this};")
 dbExecute(duck_con, state_sql)
 
+
+# ---- cty ----------------------------------------------------------------
+
+# LEFTOFF add in the county table
 
 # ---- junk ---------------------------------------------------------------
 
