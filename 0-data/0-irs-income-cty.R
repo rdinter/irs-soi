@@ -5,7 +5,6 @@
 
 # ---- start --------------------------------------------------------------
 
-# library(gdata)
 library(readxl)
 library(tidyverse)
 
