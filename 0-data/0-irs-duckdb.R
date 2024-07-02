@@ -102,7 +102,7 @@ agi_stub_cross <- c("$1 under $25,000" = "<25k",
 chris_cross <- sort(c(pivot_cross, agi_class_cross, agi_stub_cross))
 chris_cross[!duplicated(names(chris_cross))] |> 
   enframe(name = "agi_desc", value = "agi_cat") |> 
-  dbWriteTable(conn = duck_con, name = "soi_agi_cats")
+  dbWriteTable(conn = duck_con, name = "soi_agi_cats", overwrite = T)
 
 
 # ---- zip-read -----------------------------------------------------------
@@ -265,15 +265,11 @@ irs_soi_states_this <- str_c(capture.output(show_query(irs_soi_states))[-1],
                              collapse = "\n")
 cat(irs_soi_states_this)
 
-state_sql <- str_glue("CREATE OR REPLACE VIEW irs_soi_states ",
+state_sql <- str_glue("CREATE OR REPLACE VIEW irs_soi_zip_states ",
                       "AS {irs_soi_states_this};")
 dbExecute(duck_con, state_sql)
 
-# tbl(duck_con, "irs_soi_states") |> glimpse()
-
-# ---- cty ----------------------------------------------------------------
-
-# LEFTOFF add in the county table
+# tbl(duck_con, "irs_soi_zip_states") |> glimpse()
 
 # ---- junk ---------------------------------------------------------------
 
