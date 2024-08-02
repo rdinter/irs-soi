@@ -189,4 +189,5 @@ zip_codes_annual_plus <- python_zips |>
 # Create the table
 dbExecute(duck_con, "DROP TABLE zip_codes_geo;")
 
-dbCreateTable(duck_con, "zip_codes_geo", zip_codes_annual_plus)
+DBI::dbCreateTable(duck_con, "zip_codes_geo", zip_codes_annual_plus)
+DBI::dbAppendTable(duck_con, "zip_codes_geo", zip_codes_annual_plus)
