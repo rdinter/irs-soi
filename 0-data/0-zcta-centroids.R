@@ -6,7 +6,6 @@
 
 # ---- start --------------------------------------------------------------
 
-library(sf)
 library(tidyverse)
 library(duckdb)
 library(RSQLite)
@@ -25,6 +24,13 @@ if (!file.exists(gitignore)) write.table("raw",
                                          file = gitignore,
                                          quote = FALSE, sep = "\n",
                                          col.names = FALSE, row.names = FALSE)
+
+# Connect to or start the DB
+duck_con <- duckdb::dbConnect(
+  duckdb::duckdb(dbdir = str_glue("{duck_dir}/irs_soi.duckdb"))
+)
+
+duckdb::dbListTables(duck_con)
 
 # ---- download -----------------------------------------------------------
 
@@ -90,15 +96,6 @@ python_zips <- tbl(python, "simple_zipcode") |>
   collect()
 DBI::dbDisconnect(python)
 
-
-# Connect to or start the DB
-duck_con <- duckdb::dbConnect(
-  duckdb::duckdb(dbdir = str_glue("{duck_dir}/irs_soi.duckdb"))
-)
-
-duckdb::dbListTables(duck_con)
-
-
 # ---- write --------------------------------------------------------------
 
 # Correct for the dumbdumb longitudes in 1990
@@ -133,7 +130,7 @@ nber_zctas |>
 
 # Now the Python ZIP codes
 ## just....add the table. Does create table replace?
-pyzip_sql <- str_glue("CREATE OR REPLACE TABLE py_zip (
+pyzip_sql <- str_glue("CREATE OR REPLACE TABLE py_source_zip (
                       PRIMARY KEY (zip_code),
                       zip_code INTEGER,
                       zip_code_type VARCHAR,
@@ -153,7 +150,7 @@ dbExecute(duck_con, pyzip_sql)
 
 python_zips |> 
   mutate(zip_code = parse_number(zip_code)) |>
-  duckdb::dbAppendTable(conn = duck_con, name = "py_zip", value = _)
+  duckdb::dbAppendTable(conn = duck_con, name = "py_source_zip", value = _)
 
 # ---- annual-view --------------------------------------------------------
 
