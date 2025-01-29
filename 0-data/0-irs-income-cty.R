@@ -60,7 +60,7 @@ new_file_struct <- file_struct |>
 # ---- functions ----------------------------------------------------------
 
 # For excel files prior to 2010
-read_pop1 <- function(filex){
+read_pop1 <- function(filex) {
   coln   <- c("st_fips", "cty_fips", "county_name", "return", "exmpt",
               "agi", "wages", "dividends", "interest")
   
