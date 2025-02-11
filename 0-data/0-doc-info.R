@@ -107,24 +107,35 @@ old_cross |>
   fill(skip) |> 
   write_csv(file = "0-data/internal/updated_irs_zipcode_vars.csv")
 
-# ---- junk ---------------------------------------------------------------
+# ---- update-cty ---------------------------------------------------------
 
 # What are we missing with the county crosswalk
 old_cty_cross |> 
-  group_by(year) |> 
-  summarise(count = n(),
-            missing_var = sum(is.na(variable))) |> View()
+  group_by(variable) |> 
+  summarise(last_year = max(year)) |> 
+  left_join(cty_wot, y = _) |> 
+  filter(!(last_year %in% 2020)) |>
+  select(variable)
+  View()
 
+new_cty_vars <- tribble(
+  ~variable, ~r_var,
+  "CBSACODE", "cbsa_code",
+  "CBSATITLE", "cbsa_title",
+  "CBSASTATUS", "cbsa_status",
+  "N11520", "child_care_credit_n",
+  "A11520", "child_care_credit",
+  "N11530", "sick_family_leave_credit_n",
+  "A11530", "sick_family_leave_credit"
+)
 
-cty_files <- dir("0-data/IRS/county/raw", "county_income.*\\.zip",
-                 full.names = T)
+updated_cty_vals <- bind_rows(old_cty_r_vars, new_cty_vars) |>
+  left_join(cty_wot, y = _) |> 
+  filter(!is.na(r_var))
 
-(file_struct <- map(cty_files, unzip, list = T, junkpaths = T) |> 
-    set_names(cty_files) |> 
-    map_df(~as.data.frame(.x), .id = "zip_file") |> 
-    mutate(year = parse_number(basename(zip_file))))
-
-
-
-
-
+# Write it
+old_cty_cross |> 
+  bind_rows(updated_cty_vals) |> 
+  # Is there a better way for identifying how many rows to skip in the file?
+  fill(skip) |> 
+  write_csv(file = "0-data/internal/updated_irs_cty_vars.csv")
