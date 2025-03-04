@@ -33,7 +33,7 @@ if (!file.exists(zip_ignore)) write.table("raw",
                                           col.names = FALSE, row.names = FALSE)
 
 
-
+latest_year <- 2022
 url    <- "http://www.irs.gov/pub/irs-soi/"
 
 # ---- migration ----------------------------------------------------------
@@ -61,7 +61,7 @@ files2  <- paste(county_source, paste0("migration", years2, ".zip"), sep = "/")
 # https://www.irs.gov/pub/irs-soi/1112migrationdata.zip
 # https://www.irs.gov/pub/irs-soi/1819migrationdata.zip
 
-years3  <- 2012:2021
+years3  <- 2012:latest_year
 dyears3 <- paste0(str_pad(years3 - 2001, 2, "left", "0"),
                   str_pad(years3 - 2000, 2, "left", "0"))
 
@@ -111,7 +111,7 @@ urls2   <- paste0(url, years2, "countydata.zip")
 files2  <- paste(county_source,
                  paste0("county_income", years2, ".zip"), sep = "/")
 
-years3 <- 2013:2021
+years3 <- 2013:latest_year
 urls3  <- paste0(url, "county", years3, ".zip")
 files3 <- paste(county_source,
                 paste0("county_income", years3, ".zip"), sep = "/")
@@ -139,7 +139,7 @@ map2(cty_inc_urls, cty_inc_files, function(urls, files) {
 # https://www.irs.gov/pub/irs-soi/zipcode2013.zip
 # https://www.irs.gov/pub/irs-soi/zipcode2014.zip
 
-zip_inc_years  <- c(1998, 2001, 2002, 2004:2021)
+zip_inc_years  <- c(1998, 2001, 2002, 2004:latest_year)
 zip_inc_urls   <- ifelse(zip_inc_years < 2013,
                          paste0(url, zip_inc_years, "zipcode.zip"),
                          paste0(url, "zipcode", zip_inc_years, ".zip"))
